@@ -1,0 +1,7 @@
+2023-04-27 23:50:02.5634|INFO|Info
+2023-04-27 23:50:02.5793|INFO|AltTester logs are saved at: ./AltTester.log
+Property  position
+Property  localPosition
+Property  eulerAngles
+Property  localEulerAngles
+Property  right

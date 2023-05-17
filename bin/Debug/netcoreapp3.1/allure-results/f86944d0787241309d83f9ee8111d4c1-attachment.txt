@@ -1,0 +1,3 @@
+2023-04-25 21:40:05.0401|INFO|Info
+2023-04-25 21:40:05.0687|INFO|AltTester logs are saved at: ./AltTester.log
+World position of characterAltom.AltDriver.AltVector3

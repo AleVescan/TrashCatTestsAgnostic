@@ -1,0 +1,1 @@
+screensize resolution X 375 screensize resolution Y 667

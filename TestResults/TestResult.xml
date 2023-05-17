@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.16.3.0" clr-version="4.0.30319.42000" start-time="2023-04-03 09:22:20Z" end-time="2023-04-03 09:22:20Z" duration="0.277794">
+  <command-line><![CDATA[nunit3-console  C:\GitProjects\FORK-CSharp-AltTrashCat\EXAMPLES-CSharp-Standalone-AltTrashCat\TestAlttrashCSharp\TestAlttrashCSharp --work=C:\GitProjects\FORK-CSharp-AltTrashCat\EXAMPLES-CSharp-Standalone-AltTrashCat\TestAlttrashCSharp\TestResults]]></command-line>
+  <test-suite type="Unknown" id="1-1" name="TestAlttrashCSharp" fullname="C:\GitProjects\FORK-CSharp-AltTrashCat\EXAMPLES-CSharp-Standalone-AltTrashCat\TestAlttrashCSharp\TestAlttrashCSharp" testcasecount="0" runstate="NotRunnable" result="Failed" label="Invalid">
+    <properties>
+      <property name="_SKIPREASON" value="File not found: C:\GitProjects\FORK-CSharp-AltTrashCat\EXAMPLES-CSharp-Standalone-AltTrashCat\TestAlttrashCSharp\TestAlttrashCSharp" />
+    </properties>
+    <reason>
+      <message>File not found: C:\GitProjects\FORK-CSharp-AltTrashCat\EXAMPLES-CSharp-Standalone-AltTrashCat\TestAlttrashCSharp\TestAlttrashCSharp</message>
+    </reason>
+  </test-suite>
+</test-run>

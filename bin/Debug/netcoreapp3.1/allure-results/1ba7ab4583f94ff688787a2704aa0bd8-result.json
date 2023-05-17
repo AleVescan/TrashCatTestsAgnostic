@@ -1,0 +1,67 @@
+{
+  "uuid": "4bbb3e95-2caa-475f-a8b7-04f860f1975f-tr-0-1025",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestLogoMovesWithPointerEnterAndExit",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestLogoMovesWithPointerEnterAndExit",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestLogoMovesWithPointerEnterAndExit"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    }
+  ],
+  "links": [],
+  "name": "TestLogoMovesWithPointerEnterAndExit",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: not equal to 484\r\n  But was:  484\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.MainMenuTests.TestLogoMovesWithPointerEnterAndExit() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 255\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestLogoMovesWithPointerEnterAndExit",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: not equal to 484\r\n  But was:  484\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.MainMenuTests.TestLogoMovesWithPointerEnterAndExit() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 255\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ff65a26ed25a4a838b47c848060cea5f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682338807702,
+      "stop": 1682338810511
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682338807702,
+  "stop": 1682338810513
+}

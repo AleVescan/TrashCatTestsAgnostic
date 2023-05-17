@@ -1,0 +1,73 @@
+{
+  "uuid": "2c4e8643-d4e6-4414-9b9b-09dda4311379-tr-0-1037",
+  "historyId": "alttrashcat_tests_csharp.tests.StartPageTests.TestStartButtonLoadMainMenu",
+  "fullName": "alttrashcat_tests_csharp.tests.StartPageTests.TestStartButtonLoadMainMenu",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestStartButtonLoadMainMenu"
+    },
+    {
+      "name": "testClass",
+      "value": "StartPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "TestStartButtonLoadMainMenu",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestStartButtonLoadMainMenu"
+  },
+  "stage": "finished",
+  "description": "The start page is displayed when opening the application",
+  "steps": [
+    {
+      "name": "TestStartButtonLoadMainMenu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e79029a548e04f43a0595c87ccdac791-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684219743498,
+      "stop": 1684219744858
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684219743498,
+  "stop": 1684219744858
+}

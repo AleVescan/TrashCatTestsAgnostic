@@ -1,0 +1,72 @@
+{
+  "uuid": "746b2e1c-752e-47eb-b48d-5a5a162ade82-tr-0-1017",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestFindObjectWhichContainsWithCamera",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestFindObjectWhichContainsWithCamera",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestFindObjectWhichContainsWithCamera"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestFindObjectWhichContainsWithCamera",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.NullReferenceException : Object reference not set to an instance of an object",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCommandReturningAltElement.ReceiveAltObject(CommandParams cmdParams)\r\n   at Altom.AltDriver.Commands.AltTapElement.Execute()\r\n   at Altom.AltDriver.AltObject.Tap(Int32 count, Single interval, Boolean wait)\r\n   at alttrashcat_tests_csharp.pages.MainMenuPage.PressRun() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\MainMenuPage.cs:line 42\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 40"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\n",
+  "steps": [
+    {
+      "name": "TestFindObjectWhichContainsWithCamera skipped because of Setup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.NullReferenceException : Object reference not set to an instance of an object",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCommandReturningAltElement.ReceiveAltObject(CommandParams cmdParams)\r\n   at Altom.AltDriver.Commands.AltTapElement.Execute()\r\n   at Altom.AltDriver.AltObject.Tap(Int32 count, Single interval, Boolean wait)\r\n   at alttrashcat_tests_csharp.pages.MainMenuPage.PressRun() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\MainMenuPage.cs:line 42\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 40"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fea24f521e0c4f10a9c33e5d793b63d6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683614516168,
+      "stop": 1683614517681
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683614516168,
+  "stop": 1683614517682
+}

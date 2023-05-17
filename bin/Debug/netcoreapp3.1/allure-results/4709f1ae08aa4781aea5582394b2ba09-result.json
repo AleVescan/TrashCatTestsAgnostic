@@ -1,0 +1,68 @@
+{
+  "uuid": "ad5ef642-6343-48e5-ba33-239ddc489fa1-tr-0-1038",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestCharactersTabChangesColorPointEnterExit",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestCharactersTabChangesColorPointEnterExit",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestCharactersTabChangesColorPointEnterExit"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestCharactersTabChangesColorPointEnterExit",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestCharactersTabChangesColorPointEnterExit"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestCharactersTabChangesColorPointEnterExit",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8da7c3e5e41843e29feff6e44eeaf797-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682497767415,
+      "stop": 1682497770909
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682497767415,
+  "stop": 1682497770909
+}

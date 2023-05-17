@@ -1,0 +1,73 @@
+{
+  "uuid": "91ca9ab5-4ea7-4bf2-895d-08ea5fad4137-tr-0-1025",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestThatTheCharacterCanWearAccessories",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestThatTheCharacterCanWearAccessories",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestThatTheCharacterCanWearAccessories"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "TestThatTheCharacterCanWearAccessories",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestThatTheCharacterCanWearAccessories"
+  },
+  "stage": "finished",
+  "description": "The player can buy and accesorise the character",
+  "steps": [
+    {
+      "name": "TestThatTheCharacterCanWearAccessories",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "dd0caaed44de4393a6c31df6c938719a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684242266538,
+      "stop": 1684242272962
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684242266538,
+  "stop": 1684242272962
+}

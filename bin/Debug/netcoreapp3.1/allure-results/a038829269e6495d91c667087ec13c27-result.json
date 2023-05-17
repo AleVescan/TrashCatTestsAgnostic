@@ -1,0 +1,68 @@
+{
+  "uuid": "8918c14d-e604-4ccd-8cea-2a863192e13d-tr-0-1016",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllFieldssMethod",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllFieldssMethod",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllFieldssMethod"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetAllFieldssMethod",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetAllFieldssMethod"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetAllFieldssMethod",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "03cec50c771c4a5799990720923b91a3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682629485685,
+      "stop": 1682629487106
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682629485684,
+  "stop": 1682629487108
+}

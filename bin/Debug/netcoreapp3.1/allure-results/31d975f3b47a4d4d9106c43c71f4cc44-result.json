@@ -1,0 +1,68 @@
+{
+  "uuid": "cd4642d8-929e-4360-8d18-88fd2b7c643e-tr-0-1035",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestBuyMagnetButtonChangesColorPointEnterExit",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestBuyMagnetButtonChangesColorPointEnterExit",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestBuyMagnetButtonChangesColorPointEnterExit"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestBuyMagnetButtonChangesColorPointEnterExit",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestBuyMagnetButtonChangesColorPointEnterExit"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestBuyMagnetButtonChangesColorPointEnterExit",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ee9c8910ce644cbc831b85438cde3096-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682405744035,
+      "stop": 1682405747747
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682405744035,
+  "stop": 1682405747749
+}

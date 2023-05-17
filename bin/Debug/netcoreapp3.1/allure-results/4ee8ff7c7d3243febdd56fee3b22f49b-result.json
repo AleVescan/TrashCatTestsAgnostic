@@ -1,0 +1,71 @@
+{
+  "uuid": "97f21cff-89fa-4ed4-b0d8-bfa94f6f8835-tr-0-1008",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestThatTrashCatBecomesInvincible"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestThatTrashCatBecomesInvincible",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.WaitTimeOutException : Element //GameOver not loaded after 2 seconds",
+    "trace": "   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.get_GameOverButton() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 11\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.IsDisplayed() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 22\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 172"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestThatTrashCatBecomesInvincible",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.WaitTimeOutException : Element //GameOver not loaded after 2 seconds",
+        "trace": "   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.get_GameOverButton() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 11\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.IsDisplayed() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 22\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 172"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b9b9ceab17904a1e9b180a7dd35a1321-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681806165382,
+      "stop": 1681806182440
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681806165381,
+  "stop": 1681806182441
+}

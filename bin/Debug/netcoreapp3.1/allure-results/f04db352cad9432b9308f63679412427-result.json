@@ -1,0 +1,68 @@
+{
+  "uuid": "396ad03e-6373-4429-b0d6-6325cf241423-tr-0-1009",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColor",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColor",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestPremiumButtonColor"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestPremiumButtonColor",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestPremiumButtonColor"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestPremiumButtonColor",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7ab8f4ad7d0645f69e1d775b1df6a30e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681994756448,
+      "stop": 1681994777950
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681994756448,
+  "stop": 1681994777960
+}

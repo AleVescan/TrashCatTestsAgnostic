@@ -1,0 +1,44 @@
+{
+  "uuid": "3686d504-d7e3-4263-93f3-1c5c7cb69be3-tc-0-1000",
+  "name": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColor",
+  "children": [
+    "83acb2d3-a536-4fd0-bd7c-dfa9bf79e071-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682332600640,
+      "stop": 1682332600640
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682332600640,
+      "stop": 1682332600640
+    }
+  ],
+  "links": [],
+  "start": 1682332571660,
+  "stop": 1682332600662
+}

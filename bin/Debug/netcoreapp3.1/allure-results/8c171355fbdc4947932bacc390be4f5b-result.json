@@ -1,0 +1,67 @@
+{
+  "uuid": "a466857a-6d3c-41ff-a639-f85806881f87-tr-0-1038",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfUntaggedElementsSameAsInAltDesktop",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfUntaggedElementsSameAsInAltDesktop",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestNumberOfUntaggedElementsSameAsInAltDesktop"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    }
+  ],
+  "links": [],
+  "name": "TestNumberOfUntaggedElementsSameAsInAltDesktop",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 38\r\n  But was:  \"36\"\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfUntaggedElementsSameAsInAltDesktop() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 226\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestNumberOfUntaggedElementsSameAsInAltDesktop",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 38\r\n  But was:  \"36\"\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfUntaggedElementsSameAsInAltDesktop() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 226\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "547f3822aa9943faab109018c13165e8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681987230026,
+      "stop": 1681987243828
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681987230026,
+  "stop": 1681987243830
+}

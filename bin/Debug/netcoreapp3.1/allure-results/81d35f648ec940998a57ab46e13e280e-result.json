@@ -1,0 +1,68 @@
+{
+  "uuid": "c1323ddc-d6ef-4563-84d9-9aafa48410e1-tr-0-1010",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestDistanceModifieddWithinGame",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestDistanceModifieddWithinGame",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDistanceModifieddWithinGame"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestDistanceModifieddWithinGame",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestDistanceModifieddWithinGame"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestDistanceModifieddWithinGame",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9be02f96121f44ab92b153c9004797f1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682419334993,
+      "stop": 1682419356378
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682419334993,
+  "stop": 1682419356378
+}

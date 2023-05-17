@@ -1,0 +1,71 @@
+{
+  "uuid": "ec6486e6-2442-4771-9c70-5180d94ea9b1-tr-0-1013",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllComponentsMethod",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllComponentsMethod",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllComponentsMethod"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetAllComponentsMethod",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : Assert.Equals should not be used. Use Assert.AreEqual instead.",
+    "trace": "   at NUnit.Framework.Assert.Equals(Object a, Object b)\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllComponentsMethod() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 359"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetAllComponentsMethod",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : Assert.Equals should not be used. Use Assert.AreEqual instead.",
+        "trace": "   at NUnit.Framework.Assert.Equals(Object a, Object b)\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllComponentsMethod() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 359"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d8d766f4ccd04439895f8e1e41d21a5c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682534824434,
+      "stop": 1682534826132
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682534824434,
+  "stop": 1682534826134
+}

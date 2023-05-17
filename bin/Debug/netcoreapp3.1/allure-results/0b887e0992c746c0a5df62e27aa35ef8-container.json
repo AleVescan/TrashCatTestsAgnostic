@@ -1,0 +1,44 @@
+{
+  "uuid": "3b84f710-98ab-4953-8309-fd1d481d25d1-tc-0-1011",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.TestThatLifePowerUpAddsALife",
+  "children": [
+    "804c99f1-4e82-42d2-896c-280277bd201e-tr-0-1015"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682421650744,
+      "stop": 1682421650744
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682421650744,
+      "stop": 1682421650744
+    }
+  ],
+  "links": [],
+  "start": 1682421637398,
+  "stop": 1682421650749
+}

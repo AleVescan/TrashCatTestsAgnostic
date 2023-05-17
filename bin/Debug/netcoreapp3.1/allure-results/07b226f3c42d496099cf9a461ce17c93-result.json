@@ -1,0 +1,67 @@
+{
+  "uuid": "de78f92d-986c-4128-b570-30c2dab8f9ff-tr-0-1038",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestTheNumberOfAllDisabledElementsFromDifferentPagesIsDifferent",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestTheNumberOfAllDisabledElementsFromDifferentPagesIsDifferent",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestTheNumberOfAllDisabledElementsFromDifferentPagesIsDifferent"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    }
+  ],
+  "links": [],
+  "name": "TestTheNumberOfAllDisabledElementsFromDifferentPagesIsDifferent",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 329\r\n  But was:  1332\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestTheNumberOfAllDisabledElementsFromDifferentPagesIsDifferent() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 216\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestTheNumberOfAllDisabledElementsFromDifferentPagesIsDifferent",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 329\r\n  But was:  1332\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestTheNumberOfAllDisabledElementsFromDifferentPagesIsDifferent() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 216\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d258ca41dd884149b57e2f022a80dd89-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681974968438,
+      "stop": 1681974971099
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681974968438,
+  "stop": 1681974971105
+}

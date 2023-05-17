@@ -1,0 +1,68 @@
+{
+  "uuid": "645939e4-329c-419f-8156-7710e51d4790-tr-0-1009",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColorChangesAsExpectedPerState",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColorChangesAsExpectedPerState",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestPremiumButtonColorChangesAsExpectedPerState"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestPremiumButtonColorChangesAsExpectedPerState",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestPremiumButtonColorChangesAsExpectedPerState"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestPremiumButtonColorChangesAsExpectedPerState",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "697f7428a0224ca0b30ca6033f5973fc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683026118579,
+      "stop": 1683026140051
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683026118579,
+  "stop": 1683026140051
+}

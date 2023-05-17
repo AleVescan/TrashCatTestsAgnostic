@@ -1,0 +1,67 @@
+{
+  "uuid": "e212abd5-d522-490c-b2c4-a08edc201389-tr-0-1050",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMEthodsThatHandleScenes"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    }
+  ],
+  "links": [],
+  "name": "TestMEthodsThatHandleScenes",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 4 but was 5. Strings differ at index 0.\r\n  Expected: \"Main\"\r\n  But was:  \"Store\"\r\n  -----------^\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 245\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestMEthodsThatHandleScenes",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 4 but was 5. Strings differ at index 0.\r\n  Expected: \"Main\"\r\n  But was:  \"Store\"\r\n  -----------^\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 245\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fc6da8d940374fecbb54f4e67f8c9254-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682679540359,
+      "stop": 1682679545614
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682679540359,
+  "stop": 1682679545617
+}

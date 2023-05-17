@@ -1,0 +1,73 @@
+{
+  "uuid": "8f22b5b1-09df-4bd0-8ba4-72dd58aa7130-tr-0-1024",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestTheUserCanPlayWithRaccoon",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestTheUserCanPlayWithRaccoon",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestTheUserCanPlayWithRaccoon"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "TestTheUserCanPlayWithRaccoon",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestTheUserCanPlayWithRaccoon"
+  },
+  "stage": "finished",
+  "description": "The player can buy and use the raccoon character",
+  "steps": [
+    {
+      "name": "TestTheUserCanPlayWithRaccoon",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7c35cc3f81ac4f409246fecc52aab097-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684137671797,
+      "stop": 1684137677851
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684137671797,
+  "stop": 1684137677851
+}

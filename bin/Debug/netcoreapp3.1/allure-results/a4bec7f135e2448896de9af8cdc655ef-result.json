@@ -1,0 +1,64 @@
+{
+  "uuid": "1b99fe37-9c09-42bc-8690-df71b8842515-tr-0-1054",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestNumberOfFishbonesIsSame"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    }
+  ],
+  "links": [],
+  "name": "TestNumberOfFishbonesIsSame",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestNumberOfFishbonesIsSame"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestNumberOfFishbonesIsSame",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "043206457771402393898c1c32febb47-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684219769010,
+      "stop": 1684219771319
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684219769010,
+  "stop": 1684219771320
+}

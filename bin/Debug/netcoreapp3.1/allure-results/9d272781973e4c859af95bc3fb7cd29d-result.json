@@ -1,0 +1,77 @@
+{
+  "uuid": "7d85db4d-2f1f-4617-b1d3-a67436063efb-tr-0-1041",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestPressingStoreIncreasesCoins",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestPressingStoreIncreasesCoins",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestPressingStoreIncreasesCoins"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestPressingStoreIncreasesCoins",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestPressingStoreIncreasesCoins"
+  },
+  "stage": "finished",
+  "description": "Pressing the store, testing helper method, increases the coins",
+  "steps": [
+    {
+      "name": "TestPressingStoreIncreasesCoins",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7f5d002023d548eaa8e7a44b7a05cfe8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683539117540,
+      "stop": 1683539118955
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683539117540,
+  "stop": 1683539118955
+}

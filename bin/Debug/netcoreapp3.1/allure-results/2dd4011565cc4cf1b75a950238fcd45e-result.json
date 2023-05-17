@@ -1,0 +1,67 @@
+{
+  "uuid": "fe1312e5-df7a-4d37-a659-fd3eb7e7286b-tr-0-1032",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAppScreenSize"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    }
+  ],
+  "links": [],
+  "name": "TestGetAppScreenSize",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 1920.0f\r\n  But was:  \"1920\"\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 251\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetAppScreenSize",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 1920.0f\r\n  But was:  \"1920\"\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 251\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7a002a78061744178a0ae8617801b238-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683010172847,
+      "stop": 1683010174296
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683010172847,
+  "stop": 1683010174298
+}

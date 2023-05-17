@@ -1,0 +1,46 @@
+{
+  "uuid": "389b8e07-f334-40fc-939a-612c3018fbcf-tc-0-1000",
+  "name": "alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible",
+  "children": [
+    "43d80411-fc02-4b6c-8811-6066e81db0af-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.CommandResponseTimeoutException : Exception of type 'Altom.AltDriver.CommandResponseTimeoutException' was thrown.",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltGetServerVersion.Execute()\r\n   at Altom.AltDriver.AltDriver.GetServerVersion()\r\n   at Altom.AltDriver.AltDriver.checkServerVersion()\r\n   at Altom.AltDriver.AltDriver..ctor(String host, Int32 port, Boolean enableLogging, Int32 connectTimeout)\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 37"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683614659028,
+      "stop": 1683614659028
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683614659028,
+      "stop": 1683614659028
+    }
+  ],
+  "links": [],
+  "start": 1683614597994,
+  "stop": 1683614659033
+}

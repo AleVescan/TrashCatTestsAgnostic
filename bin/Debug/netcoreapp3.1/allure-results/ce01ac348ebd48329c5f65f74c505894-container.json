@@ -1,0 +1,44 @@
+{
+  "uuid": "623e8567-b444-4ae8-9325-d5d33aec4dc1-tc-0-1038",
+  "name": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestPressingStoreIncreasesCoins",
+  "children": [
+    "4328aba9-9a00-48c5-9b20-6ba2abb71c67-tr-0-1040"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683120070304,
+      "stop": 1683120070304
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683120070304,
+      "stop": 1683120070304
+    }
+  ],
+  "links": [],
+  "start": 1683120068986,
+  "stop": 1683120070315
+}

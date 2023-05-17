@@ -1,0 +1,71 @@
+{
+  "uuid": "8ba4179b-e8b3-4d9e-9463-e9cda6f4cf53-tr-0-1012",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetSCreenPositionTrashCat",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetSCreenPositionTrashCat",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetSCreenPositionTrashCat"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetSCreenPositionTrashCat",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: not equal to 189.0f\r\n  But was:  189.0f\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetSCreenPositionTrashCat() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 352\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetSCreenPositionTrashCat",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: not equal to 189.0f\r\n  But was:  189.0f\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetSCreenPositionTrashCat() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 352\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cf0884f1f0444aa69d6ee6dc23edfb11-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682599182150,
+      "stop": 1682599189743
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682599182149,
+  "stop": 1682599189745
+}

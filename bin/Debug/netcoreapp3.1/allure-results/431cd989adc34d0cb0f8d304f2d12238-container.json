@@ -1,0 +1,44 @@
+{
+  "uuid": "beb7a1d2-4621-482b-af3f-877bdc76d08b-tc-0-1000",
+  "name": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllFieldssMethod",
+  "children": [
+    "90b6b1ec-f470-4445-bb89-2f13bbc8d192-tr-0-1016"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684138214713,
+      "stop": 1684138214713
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684138214713,
+      "stop": 1684138214713
+    }
+  ],
+  "links": [],
+  "start": 1684138210952,
+  "stop": 1684138214721
+}

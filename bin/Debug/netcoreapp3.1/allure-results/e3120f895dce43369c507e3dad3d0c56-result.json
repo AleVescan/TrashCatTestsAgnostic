@@ -1,0 +1,68 @@
+{
+  "uuid": "4d5e77ee-6e47-4650-b602-e81566297553-tr-0-1011",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetWorldPositionTrashCat",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetWorldPositionTrashCat",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetWorldPositionTrashCat"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetWorldPositionTrashCat",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetWorldPositionTrashCat"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetWorldPositionTrashCat",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "49db91f95832424ea968baf8b717e09e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682582971613,
+      "stop": 1682582993029
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682582971613,
+  "stop": 1682582993035
+}

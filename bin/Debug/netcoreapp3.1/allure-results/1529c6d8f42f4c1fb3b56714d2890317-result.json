@@ -1,0 +1,64 @@
+{
+  "uuid": "6af0ddae-58b6-484d-a573-76735cff6f50-tr-0-1058",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMEthodsThatHandleScenes"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    }
+  ],
+  "links": [],
+  "name": "TestMEthodsThatHandleScenes",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestMEthodsThatHandleScenes"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestMEthodsThatHandleScenes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "03c7a7dd43084757a959ae2894c050da-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684138474182,
+      "stop": 1684138477226
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684138474182,
+  "stop": 1684138477226
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "f85c3fb4-7243-4de2-9257-1a188f7a7350-tc-0-1018",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.TestSetStaticCameraCount",
+  "children": [
+    "2267df22-c20e-403a-b317-5f0543dabb87-tr-0-1033"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683186239406,
+      "stop": 1683186239406
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683186239406,
+      "stop": 1683186239406
+    }
+  ],
+  "links": [],
+  "start": 1683186238066,
+  "stop": 1683186239434
+}

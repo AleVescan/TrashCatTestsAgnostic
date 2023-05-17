@@ -1,0 +1,12 @@
+2023-04-24 12:53:49.5000|INFO|Info
+2023-04-24 12:53:49.5184|INFO|AltTester logs are saved at: ./AltTester.log
+Intial button state code: 0
+Intial button color: 0.25490198
+Button state after pointer down 2
+Button color after pointer down: 0.15410018
+Button color after pointer up 0.60960704
+Button state after pointer up 3
+Button color after pointer enter 0.60960704
+Button state after pointer enter 3
+Button color after pointer exit 0.60960704
+Button state after pointer exit 3

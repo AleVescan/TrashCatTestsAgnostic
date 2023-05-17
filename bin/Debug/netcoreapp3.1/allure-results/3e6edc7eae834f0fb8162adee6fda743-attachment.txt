@@ -1,0 +1,3 @@
+2023-04-18 13:58:58.5995|INFO|Info
+2023-04-18 13:58:58.6188|INFO|AltTester logs are saved at: ./AltTester.log
+18/04/2023 13:59:18|Error|WebSocket.Close|This operation isn't available in: closed

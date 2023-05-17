@@ -1,0 +1,64 @@
+{
+  "uuid": "39c48978-59ce-4ad8-9497-4202d674ff88-tr-0-1032",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAppScreenSize"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    }
+  ],
+  "links": [],
+  "name": "TestGetAppScreenSize",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetAppScreenSize"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetAppScreenSize",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a7256cce220a4f049f6d750d9d76931a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683012171658,
+      "stop": 1683012173026
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683012171657,
+  "stop": 1683012173028
+}

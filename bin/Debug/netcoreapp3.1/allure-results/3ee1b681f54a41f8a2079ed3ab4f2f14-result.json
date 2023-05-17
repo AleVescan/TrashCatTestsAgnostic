@@ -1,0 +1,77 @@
+{
+  "uuid": "a1b170f7-df4d-40b1-a6d6-2e641a528dfd-tr-0-1006",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGameOverScreenIsAceesible",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGameOverScreenIsAceesible",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGameOverScreenIsAceesible"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGameOverScreenIsAceesible",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGameOverScreenIsAceesible"
+  },
+  "stage": "finished",
+  "description": "Game over screen is displayed after the player dies",
+  "steps": [
+    {
+      "name": "TestGameOverScreenIsAceesible",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8c075e13c9a54626b788bb192ef15634-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684218627814,
+      "stop": 1684218650376
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684218627814,
+  "stop": 1684218650376
+}

@@ -1,0 +1,78 @@
+{
+  "uuid": "adf2c75b-898c-4b89-b718-bf4da6fb9edf-tr-0-1028",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.SliderValuesChangeAsExpected(\"MusicSlider\")",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.SliderValuesChangeAsExpected(\"MusicSlider\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SliderValuesChangeAsExpected"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "SliderValuesChangeAsExpected(\"MusicSlider\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SliderValuesChangeAsExpected(\"MusicSlider\")"
+  },
+  "stage": "finished",
+  "description": "The player can modify the sound settings",
+  "steps": [
+    {
+      "name": "SliderValuesChangeAsExpected(\"MusicSlider\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "599e4c72fac047a3a2b6684b731ad7d4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684137610404,
+      "stop": 1684137613738
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "MusicSlider"
+    }
+  ],
+  "start": 1684137610404,
+  "stop": 1684137613739
+}

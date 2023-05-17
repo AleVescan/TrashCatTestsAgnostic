@@ -1,0 +1,44 @@
+{
+  "uuid": "9068e614-e077-40d0-b412-0501e33834af-tc-0-1018",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetTimeScaleinGame",
+  "children": [
+    "90ea9bce-2ed6-49ef-b5cb-18206fbd386a-tr-0-1034"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684218802886,
+      "stop": 1684218802886
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684218802886,
+      "stop": 1684218802886
+    }
+  ],
+  "links": [],
+  "start": 1684218799542,
+  "stop": 1684218802892
+}

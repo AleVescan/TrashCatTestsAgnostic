@@ -1,0 +1,68 @@
+{
+  "uuid": "8014b0ce-6de3-475e-8c65-523a86877797-tr-0-1045",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestPointerEnterAndExit",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestPointerEnterAndExit",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestPointerEnterAndExit"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestPointerEnterAndExit",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestPointerEnterAndExit"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestPointerEnterAndExit",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f299391c7bf54a97b822bb247a751c27-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683018772397,
+      "stop": 1683018773860
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683018772397,
+  "stop": 1683018773860
+}

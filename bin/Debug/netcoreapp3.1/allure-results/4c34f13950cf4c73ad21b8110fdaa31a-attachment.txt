@@ -1,0 +1,7 @@
+2023-04-27 23:49:07.4269|INFO|Info
+2023-04-27 23:49:07.4431|INFO|AltTester logs are saved at: ./AltTester.log
+All components are position
+All components are localPosition
+All components are eulerAngles
+All components are localEulerAngles
+All components are right

@@ -1,0 +1,71 @@
+{
+  "uuid": "f618425b-bb89-4497-9ab4-ed9a6c27b0d3-tr-0-1009",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestScoreIsMultipedWithinGame"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestScoreIsMultipedWithinGame",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.AltException : Driver disconnected",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 187"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestScoreIsMultipedWithinGame",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.AltException : Driver disconnected",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 187"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "42d011fa99354f01a78cdd1689ecbc15-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681818190504,
+      "stop": 1681818211900
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681818190504,
+  "stop": 1681818211902
+}

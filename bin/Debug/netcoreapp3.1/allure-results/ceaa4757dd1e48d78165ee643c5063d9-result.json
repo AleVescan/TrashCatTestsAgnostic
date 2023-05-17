@@ -1,0 +1,68 @@
+{
+  "uuid": "fd10ba34-71e6-4a7a-bd31-1d17a7ed259b-tr-0-1032",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAppScreenSize"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    }
+  ],
+  "links": [],
+  "name": "TestGetAppScreenSize",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.ConnectionTimeoutException : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Connect()\r\n   at Altom.AltDriver.AltDriver..ctor(String host, Int32 port, Boolean enableLogging, Int32 connectTimeout)\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 30\r\n--TearDown\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.Dispose() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 296"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\n\nDispose TearDown method failed\n",
+  "steps": [
+    {
+      "name": "TestGetAppScreenSize skipped because of Setup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.ConnectionTimeoutException : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Connect()\r\n   at Altom.AltDriver.AltDriver..ctor(String host, Int32 port, Boolean enableLogging, Int32 connectTimeout)\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 30\r\n--TearDown\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.Dispose() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 296"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7a97f0e559e24a718e0e76acada22355-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683614959506,
+      "stop": 1683615019633
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683614959506,
+  "stop": 1683615019633
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "2586a987-26b1-4352-af01-5c37ed33d1ee-tr-0-1039",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyReviveAndGetASecondChance",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyReviveAndGetASecondChance",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UserJourneyReviveAndGetASecondChance"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "UserJourneyReviveAndGetASecondChance",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : The current state of the connection is not Open.",
+    "trace": "   at AltWebSocketSharp.WebSocket.Send(String data)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Send(CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GameOverScreen.get_MainMenuButton() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GameOverScreenPage.cs:line 14\r\n   at alttrashcat_tests_csharp.pages.GameOverScreen.IsDisplayed() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GameOverScreenPage.cs:line 21\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.<UserJourneyReviveAndGetASecondChance>b__12_0() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 186\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyReviveAndGetASecondChance() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 135"
+  },
+  "stage": "finished",
+  "description": "An user journey in which the player has the most chances of revival by using a life power-up and a second chance",
+  "steps": [
+    {
+      "name": "UserJourneyReviveAndGetASecondChance",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : The current state of the connection is not Open.",
+        "trace": "   at AltWebSocketSharp.WebSocket.Send(String data)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Send(CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GameOverScreen.get_MainMenuButton() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GameOverScreenPage.cs:line 14\r\n   at alttrashcat_tests_csharp.pages.GameOverScreen.IsDisplayed() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GameOverScreenPage.cs:line 21\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.<UserJourneyReviveAndGetASecondChance>b__12_0() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 186\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyReviveAndGetASecondChance() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 135"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9010a18995ae4ef98f7494543ed289bc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682412785336,
+      "stop": 1682413205558
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682412785336,
+  "stop": 1682413205560
+}

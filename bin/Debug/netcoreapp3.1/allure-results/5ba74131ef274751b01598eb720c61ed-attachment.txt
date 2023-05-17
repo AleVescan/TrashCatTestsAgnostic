@@ -1,0 +1,7 @@
+2023-04-20 21:40:09.1933|INFO|Info
+2023-04-20 21:40:09.2277|INFO|AltTester logs are saved at: ./AltTester.log
+Intial button state code: 0
+Button state after pointer down 2
+Button state after pointer up 3
+Button state after pointer enter 3
+Button state after pointer exit 3

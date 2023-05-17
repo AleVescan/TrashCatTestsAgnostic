@@ -1,0 +1,18 @@
+2023-04-25 14:17:27.8452|INFO|Info
+2023-04-25 14:17:27.8605|INFO|AltTester logs are saved at: ./AltTester.log
+25/04/2023 14:17:29|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+25/04/2023 14:17:32|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+25/04/2023 14:17:34|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+25/04/2023 14:17:36|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+25/04/2023 14:17:38|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+25/04/2023 14:17:40|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+Obstacle: ObstacleDog(Clone), z:58.445, x:0
+Next: ObstacleRoadworksCone(Clone), z:103.395, x:1.5
+Obstacle: ObstacleRoadworksCone(Clone), z:103.395, x:1.5
+Next: ObstacleRoadworksCone(Clone), z:130.365, x:-1.5
+Obstacle: ObstacleRoadworksCone(Clone), z:30.279602, x:-1.5
+Next: ObstacleRoadworksCone(Clone), z:30.279602, x:0
+Obstacle: ObstacleRat(Clone), z:57.24962, x:1.2655544
+Next: ObstacleBin(Clone), z:66.23961, x:-1.5
+Obstacle: ObstacleBin(Clone), z:66.23961, x:-1.5
+Next: ObstacleRat(Clone), z:75.22963, x:-0.8066387

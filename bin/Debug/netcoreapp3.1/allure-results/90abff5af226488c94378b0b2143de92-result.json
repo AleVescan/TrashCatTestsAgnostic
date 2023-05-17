@@ -1,0 +1,71 @@
+{
+  "uuid": "6104abe8-4b00-4047-b303-4930f28f82b9-tr-0-1009",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColor",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColor",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestPremiumButtonColor"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestPremiumButtonColor",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : Cannot convert null to 'int' because it is a non-nullable value type",
+    "trace": "   at CallSite.Target(Closure , CallSite , Object )\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColor() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 215"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestPremiumButtonColor",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : Cannot convert null to 'int' because it is a non-nullable value type",
+        "trace": "   at CallSite.Target(Closure , CallSite , Object )\r\n   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColor() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 215"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b1b9806ebf234361866feac1e3e57f0f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682319060470,
+      "stop": 1682319080422
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682319060470,
+  "stop": 1682319080424
+}

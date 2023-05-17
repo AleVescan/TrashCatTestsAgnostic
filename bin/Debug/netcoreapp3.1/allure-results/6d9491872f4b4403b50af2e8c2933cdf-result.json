@@ -1,0 +1,73 @@
+{
+  "uuid": "20b6fea9-a7f7-46c3-9670-1143a2988486-tr-0-1022",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestThatLifePowerUpAddsALife",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestThatLifePowerUpAddsALife",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestThatLifePowerUpAddsALife"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "TestThatLifePowerUpAddsALife",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestThatLifePowerUpAddsALife"
+  },
+  "stage": "finished",
+  "description": "Test that the player can buy a life power-up and use it in gameplay",
+  "steps": [
+    {
+      "name": "TestThatLifePowerUpAddsALife",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "62d39bdab28f45638a8a2742b8af2ef5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682676012218,
+      "stop": 1682676025706
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682676012218,
+  "stop": 1682676025706
+}

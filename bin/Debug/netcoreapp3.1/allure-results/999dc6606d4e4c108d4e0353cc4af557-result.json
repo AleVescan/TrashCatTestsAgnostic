@@ -1,0 +1,77 @@
+{
+  "uuid": "20532ae1-61a6-4049-83ee-dc49f7bab07f-tr-0-1032",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestBuyButtonsBecomeActiveOnlyWhenEnoughCoins",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestBuyButtonsBecomeActiveOnlyWhenEnoughCoins",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestBuyButtonsBecomeActiveOnlyWhenEnoughCoins"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestBuyButtonsBecomeActiveOnlyWhenEnoughCoins",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestBuyButtonsBecomeActiveOnlyWhenEnoughCoins"
+  },
+  "stage": "finished",
+  "description": "The buy buttons are active only if there are enough coins available",
+  "steps": [
+    {
+      "name": "TestBuyButtonsBecomeActiveOnlyWhenEnoughCoins",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3be3fed4cc774244b7e17ee37403f7d4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682421148888,
+      "stop": 1682421153111
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682421148888,
+  "stop": 1682421153111
+}

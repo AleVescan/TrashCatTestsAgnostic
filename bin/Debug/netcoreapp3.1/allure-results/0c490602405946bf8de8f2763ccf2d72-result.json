@@ -1,0 +1,68 @@
+{
+  "uuid": "ed035511-0f45-44ec-b602-77392e7d488c-tr-0-1047",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestGetStaticPropertyBrightness",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestGetStaticPropertyBrightness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetStaticPropertyBrightness"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestGetStaticPropertyBrightness",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetStaticPropertyBrightness"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetStaticPropertyBrightness",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "42ffc7eda8aa4d07873c4c8fbe73381c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683109783941,
+      "stop": 1683109785306
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683109783940,
+  "stop": 1683109785308
+}

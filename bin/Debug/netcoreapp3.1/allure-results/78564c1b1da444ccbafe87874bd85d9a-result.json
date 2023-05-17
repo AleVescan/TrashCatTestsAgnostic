@@ -1,0 +1,71 @@
+{
+  "uuid": "b4c1e81c-0918-4e92-ae25-97070f5ca48f-tr-0-1009",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestScoreIsMultipedWithinGame"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestScoreIsMultipedWithinGame",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.UnknownErrorException : Set Method not found for 'isActiveAndEnabled'",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltSetComponentProperty.Execute()\r\n   at Altom.AltDriver.AltObject.SetComponentProperty(String componentName, String propertyName, Object value, String assemblyName)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.SetRunnerMultiplier() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 100\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 190"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestScoreIsMultipedWithinGame",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.UnknownErrorException : Set Method not found for 'isActiveAndEnabled'",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltSetComponentProperty.Execute()\r\n   at Altom.AltDriver.AltObject.SetComponentProperty(String componentName, String propertyName, Object value, String assemblyName)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.SetRunnerMultiplier() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 100\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 190"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5f6fc02b29c64791bcee6aee036b8883-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681819120373,
+      "stop": 1681819141919
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681819120373,
+  "stop": 1681819141921
+}

@@ -1,0 +1,64 @@
+{
+  "uuid": "d34f64d6-27e2-4f89-b7b5-fafd5f0811e7-tr-0-1033",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetTimeScaleinGame",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetTimeScaleinGame",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetTimeScaleinGame"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    }
+  ],
+  "links": [],
+  "name": "TestGetTimeScaleinGame",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetTimeScaleinGame"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetTimeScaleinGame",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "dc98a68c6d0c44e1a0e670294855432a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683120022935,
+      "stop": 1683120026224
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683120022935,
+  "stop": 1683120026224
+}

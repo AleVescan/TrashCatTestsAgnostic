@@ -1,0 +1,67 @@
+{
+  "uuid": "62d2d87f-8c74-49c5-885b-9fdbded0d601-tr-0-1023",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetParent",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetParent",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetParent"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    }
+  ],
+  "links": [],
+  "name": "TestGetParent",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.NotFoundException : Object //Panel not found",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.AltDriver.FindObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled)\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.TestGetParent() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 236"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetParent",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.NotFoundException : Object //Panel not found",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.AltDriver.FindObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled)\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.TestGetParent() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 236"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "92b01f4d9cc94bbc8df4f8cf09c841e1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681905457207,
+      "stop": 1681905459095
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681905457207,
+  "stop": 1681905459097
+}

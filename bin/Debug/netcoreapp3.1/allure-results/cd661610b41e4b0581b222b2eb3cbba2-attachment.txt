@@ -1,0 +1,39 @@
+2023-04-27 23:53:17.1349|INFO|Info
+2023-04-27 23:53:17.1604|INFO|AltTester logs are saved at: ./AltTester.log
+27/04/2023 23:53:17|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:17|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:17|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:17|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:17|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:17|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:17|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:17|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:18|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:18|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:18|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:18|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:18|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:18|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:18|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:18|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:18|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:19|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:19|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:19|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:19|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:19|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:19|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:19|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:19|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:19|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:20|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:20|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:20|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:20|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:20|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+27/04/2023 23:53:20|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+Property  position
+Property  localPosition
+Property  eulerAngles
+Property  localEulerAngles
+Property  right

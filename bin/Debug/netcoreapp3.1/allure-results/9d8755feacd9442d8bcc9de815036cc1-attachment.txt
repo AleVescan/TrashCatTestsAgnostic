@@ -1,0 +1,5 @@
+2023-04-24 15:33:54.0104|INFO|Info
+2023-04-24 15:33:54.0302|INFO|AltTester logs are saved at: ./AltTester.log
+24/04/2023 15:33:54|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+24/04/2023 15:33:54|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+24/04/2023 15:33:54|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.

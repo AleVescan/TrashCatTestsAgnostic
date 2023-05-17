@@ -1,0 +1,3 @@
+2023-04-26 09:14:51.5267|INFO|Info
+2023-04-26 09:14:51.5459|INFO|AltTester logs are saved at: ./AltTester.log
+All components are System.Collections.Generic.List`1[Altom.AltDriver.AltComponent]

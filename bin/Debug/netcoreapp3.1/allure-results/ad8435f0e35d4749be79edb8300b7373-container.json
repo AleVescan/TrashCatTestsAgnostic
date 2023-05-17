@@ -1,0 +1,48 @@
+{
+  "uuid": "f54fa253-4e27-410f-b966-cb6603ff6691-tc-0-1018",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize",
+  "children": [
+    "fd10ba34-71e6-4a7a-bd31-1d17a7ed259b-tr-0-1032"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.ConnectionTimeoutException : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Connect()\r\n   at Altom.AltDriver.AltDriver..ctor(String host, Int32 port, Boolean enableLogging, Int32 connectTimeout)\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 30\r\n--TearDown\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.Dispose() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 296"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683615019627,
+      "stop": 1683615019627
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.ConnectionTimeoutException : Failed to connect to AltTester on host: 127.0.0.1 port: 13000.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Connect()\r\n   at Altom.AltDriver.AltDriver..ctor(String host, Int32 port, Boolean enableLogging, Int32 connectTimeout)\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 30\r\n--TearDown\r\n   at alttrashcat_tests_csharp.tests.MainMenuTests.Dispose() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\MainMenuTests.cs:line 296"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683615019627,
+      "stop": 1683615019627
+    }
+  ],
+  "links": [],
+  "start": 1683614959506,
+  "stop": 1683615019639
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "a79fa59e-8d82-4de8-85b0-cccf903b7dbc-tc-0-1018",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.TestThatTheCharacterCanWearAccessories",
+  "children": [
+    "f62aeb6f-5356-4ee8-bea5-681979ebc8d2-tr-0-1025"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683539094953,
+      "stop": 1683539094953
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683539094953,
+      "stop": 1683539094953
+    }
+  ],
+  "links": [],
+  "start": 1683539092323,
+  "stop": 1683539094960
+}

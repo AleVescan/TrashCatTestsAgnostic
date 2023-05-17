@@ -1,0 +1,5 @@
+Method  UnityEngine.Vector3 get_position()
+Method   Void set_position(UnityEngine.Vector3)
+Method   UnityEngine.Vector3 get_localPosition()
+Method   Void set_localPosition(UnityEngine.Vector3)
+Method   UnityEngine.Vector3 GetLocalEulerAngles(UnityEngine.RotationOrder)

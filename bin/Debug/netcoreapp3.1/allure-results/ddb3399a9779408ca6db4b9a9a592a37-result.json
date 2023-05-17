@@ -1,0 +1,68 @@
+{
+  "uuid": "d22336f3-3a9c-48d2-95e7-f9671831ce29-tr-0-1008",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestThatTrashCatBecomesInvincible"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestThatTrashCatBecomesInvincible",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestThatTrashCatBecomesInvincible"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestThatTrashCatBecomesInvincible",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d0d3dbd6b56c4909aea0d1c9c1f854fd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681807741575,
+      "stop": 1681807758485
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681807741574,
+  "stop": 1681807758487
+}

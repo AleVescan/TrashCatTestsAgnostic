@@ -1,0 +1,71 @@
+{
+  "uuid": "8acdd680-a63c-446e-a4ba-90eca2c3fd54-tr-0-1034",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestThatPremiumButtonAtCoordinatesIsFound",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestThatPremiumButtonAtCoordinatesIsFound",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestThatPremiumButtonAtCoordinatesIsFound"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestThatPremiumButtonAtCoordinatesIsFound",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 7 but was 1. Strings differ at index 0.\r\n  Expected: \"1000000\"\r\n  But was:  \"+\"\r\n  -----------^\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestThatPremiumButtonAtCoordinatesIsFound() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 104\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestThatPremiumButtonAtCoordinatesIsFound",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 7 but was 1. Strings differ at index 0.\r\n  Expected: \"1000000\"\r\n  But was:  \"+\"\r\n  -----------^\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestThatPremiumButtonAtCoordinatesIsFound() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 104\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b3d3d9780b614250872869d8ae0a8f12-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682409815135,
+      "stop": 1682409816449
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682409815135,
+  "stop": 1682409816449
+}

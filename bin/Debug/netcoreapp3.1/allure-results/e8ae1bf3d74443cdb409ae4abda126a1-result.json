@@ -1,0 +1,71 @@
+{
+  "uuid": "0329b2c7-a29d-4229-9ea7-77b3bf90f76e-tr-0-1048",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestSetStaticPropertyScreenResolution",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestSetStaticPropertyScreenResolution",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSetStaticPropertyScreenResolution"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestSetStaticPropertyScreenResolution",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.NullReferenceException : Object reference not set to an instance of an object",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltSetStaticProperty.Execute()\r\n   at Altom.AltDriver.AltDriver.SetStaticProperty(String componentName, String propertyName, String assemblyName, Object updatedProperty)\r\n   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestSetStaticPropertyScreenResolution() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 162"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestSetStaticPropertyScreenResolution",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.NullReferenceException : Object reference not set to an instance of an object",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltSetStaticProperty.Execute()\r\n   at Altom.AltDriver.AltDriver.SetStaticProperty(String componentName, String propertyName, String assemblyName, Object updatedProperty)\r\n   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestSetStaticPropertyScreenResolution() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 162"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cfc7531229cd47fa8e1c85cda2f3962c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683111220711,
+      "stop": 1683111221983
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683111220711,
+  "stop": 1683111221985
+}

@@ -1,0 +1,71 @@
+{
+  "uuid": "29ea63d6-4abd-4caa-9ca9-8493cb79bf7c-tr-0-1014",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllPropertiesMethod",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllPropertiesMethod",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllPropertiesMethod"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetAllPropertiesMethod",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 5 but was 4. Strings differ at index 3.\r\n  Expected: \"right\"\r\n  But was:  \"rigt\"\r\n  --------------^\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllPropertiesMethod() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 391\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetAllPropertiesMethod",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 5 but was 4. Strings differ at index 3.\r\n  Expected: \"right\"\r\n  But was:  \"rigt\"\r\n  --------------^\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllPropertiesMethod() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 391\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "50ec4217b0324751abc764334aa9fa61-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682674874918,
+      "stop": 1682674876804
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682674874918,
+  "stop": 1682674876806
+}

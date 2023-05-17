@@ -1,0 +1,46 @@
+{
+  "uuid": "cef3e450-0c7c-4730-b4c6-7e458ddc938e-tc-0-1000",
+  "name": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGameCanBePausedAndStopped",
+  "children": [
+    "fef057a0-82c8-4d8c-960f-10f77506b573-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.NullReferenceException : Object reference not set to an instance of an object",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCommandReturningAltElement.ReceiveAltObject(CommandParams cmdParams)\r\n   at Altom.AltDriver.Commands.AltTapElement.Execute()\r\n   at Altom.AltDriver.AltObject.Tap(Int32 count, Single interval, Boolean wait)\r\n   at alttrashcat_tests_csharp.pages.MainMenuPage.PressRun() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\MainMenuPage.cs:line 42\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 40"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683614520759,
+      "stop": 1683614520759
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683614520759,
+      "stop": 1683614520759
+    }
+  ],
+  "links": [],
+  "start": 1683614519230,
+  "stop": 1683614520766
+}

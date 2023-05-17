@@ -1,0 +1,44 @@
+{
+  "uuid": "8b37dfb8-fc20-4c62-9efb-017f2e0ac6b1-tc-0-1038",
+  "name": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestThatPremiumButtonAtCoordinatesIsFound",
+  "children": [
+    "31c4531f-0837-4c19-aeef-f0add0194c5e-tr-0-1043"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684242316229,
+      "stop": 1684242316229
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684242316229,
+      "stop": 1684242316229
+    }
+  ],
+  "links": [],
+  "start": 1684242313874,
+  "stop": 1684242316236
+}

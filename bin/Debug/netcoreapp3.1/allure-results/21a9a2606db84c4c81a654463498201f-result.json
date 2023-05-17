@@ -1,0 +1,71 @@
+{
+  "uuid": "c7e3ce7c-eeac-40a0-99da-8db4b1614ab9-tr-0-1008",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestThatTrashCatBecomesInvincible"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestThatTrashCatBecomesInvincible",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.MethodNotFoundException : Method SetInvincible(Single) Void not found in CharacterCollider",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCallComponentMethod`1.Execute()\r\n   at Altom.AltDriver.AltObject.CallComponentMethod[T](String componentName, String methodName, String assemblyName, Object[] parameters, String[] typeOfParameters)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.SetCharacterInvincible() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 89\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 169"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestThatTrashCatBecomesInvincible",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.MethodNotFoundException : Method SetInvincible(Single) Void not found in CharacterCollider",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCallComponentMethod`1.Execute()\r\n   at Altom.AltDriver.AltObject.CallComponentMethod[T](String componentName, String methodName, String assemblyName, Object[] parameters, String[] typeOfParameters)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.SetCharacterInvincible() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 89\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 169"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c09e9f7fad7d4d01a7f82ca14af511ed-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681799372031,
+      "stop": 1681799373433
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681799372031,
+  "stop": 1681799373435
+}

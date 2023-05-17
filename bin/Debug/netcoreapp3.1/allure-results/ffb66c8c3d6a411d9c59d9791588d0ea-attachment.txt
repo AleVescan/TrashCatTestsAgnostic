@@ -1,0 +1,3 @@
+2023-05-01 22:25:08.1429|INFO|Info
+2023-05-01 22:25:08.1595|INFO|AltTester logs are saved at: ./AltTester.log
+Playre pref for up Test

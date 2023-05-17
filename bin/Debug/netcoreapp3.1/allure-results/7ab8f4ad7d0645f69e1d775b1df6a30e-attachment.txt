@@ -1,0 +1,5 @@
+2023-04-20 15:45:56.5574|INFO|Info
+2023-04-20 15:45:56.5898|INFO|AltTester logs are saved at: ./AltTester.log
+{"normalColor":{"r":0.254901975,"g":0.670588255,"b":0.239215687,"a":1.0,"grayscale":0.4971216,"linear":{},"gamma":{},"maxColorComponent":0.670588255},"highlightedColor":{"r":0.609607041,"g":0.9338235,"b":0.5973724,"a":1.0,"grayscale":0.79852736,"linear":{},"gamma":{},"maxColorComponent":0.9338235},"pressedColor":{"r":0.15410018,"g":0.433823526,"b":0.143544555,"a":1.0,"grayscale":0.317094445,"linear":{},"gamma":{},"maxColorComponent":0.433823526},"selectedColor":{"r":0.609607041,"g":0.9338235,"b":0.5973724,"a":1.0,"grayscale":0.79852736,"linear":{},"gamma":{},"maxColorComponent":0.9338235},"disabledColor":{"r":0.468904346,"g":0.4852941,"b":0.453179061,"a":0.5019608,"grayscale":0.476732463,"linear":{},"gamma":{},"maxColorComponent":0.4852941},"colorMultiplier":1.0,"fadeDuration":0.1}
+2
+2

@@ -1,0 +1,77 @@
+{
+  "uuid": "c05a415d-2d19-45f5-a43f-c28bedad5202-tr-0-1039",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestStoreMenuPageLoadedCorrectly",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestStoreMenuPageLoadedCorrectly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestStoreMenuPageLoadedCorrectly"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestStoreMenuPageLoadedCorrectly",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestStoreMenuPageLoadedCorrectly"
+  },
+  "stage": "finished",
+  "description": "The store page is displayed as expected",
+  "steps": [
+    {
+      "name": "TestStoreMenuPageLoadedCorrectly",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6fe454dc59ae467b86c32caebca5342e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684221386535,
+      "stop": 1684221389212
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684221386535,
+  "stop": 1684221389212
+}

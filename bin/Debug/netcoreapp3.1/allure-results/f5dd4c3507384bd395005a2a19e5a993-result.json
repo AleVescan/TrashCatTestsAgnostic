@@ -1,0 +1,73 @@
+{
+  "uuid": "b6ece2ed-3076-4d5b-8dfb-5f94614ba8c7-tr-0-1019",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestMainMenuPageLoadedCorrectly",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestMainMenuPageLoadedCorrectly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMainMenuPageLoadedCorrectly"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "TestMainMenuPageLoadedCorrectly",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestMainMenuPageLoadedCorrectly"
+  },
+  "stage": "finished",
+  "description": "Verifies that the main menu is correctly displayed",
+  "steps": [
+    {
+      "name": "TestMainMenuPageLoadedCorrectly",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6e7e0e7cc3b746e1ae3392d02a808ca1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684221316926,
+      "stop": 1684221319466
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684221316926,
+  "stop": 1684221319467
+}

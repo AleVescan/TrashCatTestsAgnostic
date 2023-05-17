@@ -1,0 +1,77 @@
+{
+  "uuid": "a75e7c34-2dbc-4257-92d4-e64df87ad4ba-tr-0-1007",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAnotherChangeDisabledWhenNotEnoughCoins",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAnotherChangeDisabledWhenNotEnoughCoins",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAnotherChangeDisabledWhenNotEnoughCoins"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetAnotherChangeDisabledWhenNotEnoughCoins",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGetAnotherChangeDisabledWhenNotEnoughCoins"
+  },
+  "stage": "finished",
+  "description": "The player can not select to get another chance when there aren`t enough premim coins",
+  "steps": [
+    {
+      "name": "TestGetAnotherChangeDisabledWhenNotEnoughCoins",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5bdd107de11e4355b982cd3d8f8a6c24-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682409642148,
+      "stop": 1682409668010
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682409642148,
+  "stop": 1682409668011
+}

@@ -1,0 +1,83 @@
+{
+  "uuid": "e91366af-4a8e-4790-8ca7-e68605297ac9-tr-0-1001",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGamePlayDisplayedCorrectly",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGamePlayDisplayedCorrectly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGamePlayDisplayedCorrectly"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [
+    {
+      "name": "ABC-1",
+      "url": "https://github.com/nunit/docs/issues?utf8=%E2%9C%93&q=ABC-1",
+      "type": "issue"
+    }
+  ],
+  "name": "TestGamePlayDisplayedCorrectly",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGamePlayDisplayedCorrectly"
+  },
+  "stage": "finished",
+  "description": "Test to see if the gameplay is started by verifyig specific elements",
+  "steps": [
+    {
+      "name": "TestGamePlayDisplayedCorrectly",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "303d81b19b9e404bab6e8cf263ee83a8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683025690803,
+      "stop": 1683025692035
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683025690803,
+  "stop": 1683025692035
+}

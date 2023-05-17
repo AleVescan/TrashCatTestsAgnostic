@@ -1,0 +1,6 @@
+2023-04-27 10:46:22.7922|INFO|Info
+2023-04-27 10:46:22.8087|INFO|AltTester logs are saved at: ./AltTester.log
+Screen position of character X axis 288
+Screen position of character Y axis 103
+Screen position of character after some time X axis 288
+Screen position of character after some time Y axis 103

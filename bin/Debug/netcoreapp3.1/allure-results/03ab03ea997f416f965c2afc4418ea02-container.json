@@ -1,0 +1,44 @@
+{
+  "uuid": "02e36d35-0208-4c40-9ada-d59ff6f43059-tc-0-1000",
+  "name": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAnotherChangeDisabledWhenNotEnoughCoins",
+  "children": [
+    "dee0b8cd-3522-4f03-a44f-f0179b19033c-tr-0-1007"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682497607855,
+      "stop": 1682497607855
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682497607855,
+      "stop": 1682497607855
+    }
+  ],
+  "links": [],
+  "start": 1682497585772,
+  "stop": 1682497607865
+}

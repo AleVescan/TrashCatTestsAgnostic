@@ -1,0 +1,67 @@
+{
+  "uuid": "673483da-5d5b-46a8-b14a-7b7d25770fd8-tr-0-1038",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestNumberOfFishbonesIsSame"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    }
+  ],
+  "links": [],
+  "name": "TestNumberOfFishbonesIsSame",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.InvalidPathException : Path must start with delimiter / or //",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCommandReturningAltElement.ReceiveListOfAltObjects(CommandParams cmdParams)\r\n   at Altom.AltDriver.Commands.AltFindObjects.Execute()\r\n   at Altom.AltDriver.AltDriver.FindObjects(By by, String value, By cameraBy, String cameraValue, Boolean enabled)\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 228"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestNumberOfFishbonesIsSame",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.InvalidPathException : Path must start with delimiter / or //",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCommandReturningAltElement.ReceiveListOfAltObjects(CommandParams cmdParams)\r\n   at Altom.AltDriver.Commands.AltFindObjects.Execute()\r\n   at Altom.AltDriver.AltDriver.FindObjects(By by, String value, By cameraBy, String cameraValue, Boolean enabled)\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 228"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a244d96b07904de88f7703097c0dab40-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681987863073,
+      "stop": 1681987865584
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681987863073,
+  "stop": 1681987865586
+}

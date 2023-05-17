@@ -1,0 +1,8 @@
+2023-04-27 11:42:45.1716|INFO|Info
+2023-04-27 11:42:45.1984|INFO|AltTester logs are saved at: ./AltTester.log
+World position of character X axis 0
+World position of character Y axis 0
+World position of character Z axis 2
+World position of character after some time X axis 0
+World position of character after some time Y axis 0
+World position of character after some time Z axis 2

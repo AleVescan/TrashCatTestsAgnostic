@@ -1,0 +1,46 @@
+{
+  "uuid": "e93d21a7-502d-4a99-91e3-8382f36dcf24-tc-0-1000",
+  "name": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPremiumButtonColorChangesAsExpectedPerState",
+  "children": [
+    "be0d9a76-2c3d-454c-ad8f-984876a3fc60-tr-0-1009"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.CommandResponseTimeoutException : Exception of type 'Altom.AltDriver.CommandResponseTimeoutException' was thrown.",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.MainMenuPage.get_RunButton() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\MainMenuPage.cs:line 20\r\n   at alttrashcat_tests_csharp.pages.MainMenuPage.PressRun() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\MainMenuPage.cs:line 42\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 40"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683614597984,
+      "stop": 1683614597984
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683614597984,
+      "stop": 1683614597984
+    }
+  ],
+  "links": [],
+  "start": 1683614536745,
+  "stop": 1683614597990
+}

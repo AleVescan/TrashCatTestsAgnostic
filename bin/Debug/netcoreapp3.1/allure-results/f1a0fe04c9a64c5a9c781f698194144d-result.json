@@ -1,0 +1,86 @@
+{
+  "uuid": "ecebc6f2-051a-4b89-9cba-7733c714f6f0-tr-0-1002",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGameCanBePausedAndResumed",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGameCanBePausedAndResumed",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGameCanBePausedAndResumed"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [
+    {
+      "name": "ABC-2",
+      "url": "https://github.com/nunit/docs/issues?utf8=%E2%9C%93&q=ABC-2",
+      "type": "issue"
+    }
+  ],
+  "name": "TestGameCanBePausedAndResumed",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.NullReferenceException : Object reference not set to an instance of an object",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCommandReturningAltElement.ReceiveAltObject(CommandParams cmdParams)\r\n   at Altom.AltDriver.Commands.AltTapElement.Execute()\r\n   at Altom.AltDriver.AltObject.Tap(Int32 count, Single interval, Boolean wait)\r\n   at alttrashcat_tests_csharp.pages.MainMenuPage.PressRun() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\MainMenuPage.cs:line 42\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 40"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\nTest to see if the gameplay can be paused and resumes correctly afterwards",
+  "steps": [
+    {
+      "name": "TestGameCanBePausedAndResumed skipped because of Setup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.NullReferenceException : Object reference not set to an instance of an object",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCommandReturningAltElement.ReceiveAltObject(CommandParams cmdParams)\r\n   at Altom.AltDriver.Commands.AltTapElement.Execute()\r\n   at Altom.AltDriver.AltObject.Tap(Int32 count, Single interval, Boolean wait)\r\n   at alttrashcat_tests_csharp.pages.MainMenuPage.PressRun() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\MainMenuPage.cs:line 42\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.Setup() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 40"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "22dc5016122340b883bd82f07c936ecd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683614517691,
+      "stop": 1683614519199
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683614517691,
+  "stop": 1683614519200
+}

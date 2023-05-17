@@ -1,0 +1,73 @@
+{
+  "uuid": "31ff0124-15a2-4fa2-99e4-da4e0f1eabdf-tr-0-1014",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestMagnetIsUsedInGameplay",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestMagnetIsUsedInGameplay",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMagnetIsUsedInGameplay"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "TestMagnetIsUsedInGameplay",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestMagnetIsUsedInGameplay"
+  },
+  "stage": "finished",
+  "description": "Test that the player can buy a magnet and use it in gameplay",
+  "steps": [
+    {
+      "name": "TestMagnetIsUsedInGameplay",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "afb912df263249daab307de349bc397a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682409759863,
+      "stop": 1682409762001
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682409759863,
+  "stop": 1682409762001
+}

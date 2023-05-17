@@ -1,0 +1,71 @@
+{
+  "uuid": "b9094daf-609c-4368-b45d-fbeb1abda2bd-tr-0-1011",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetWorldPositionTrashCat",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetWorldPositionTrashCat",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetWorldPositionTrashCat"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetWorldPositionTrashCat",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : The current state of the connection is not Open.",
+    "trace": "   at AltWebSocketSharp.WebSocket.Send(String data)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Send(CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.AltObject.UpdateObject()\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetWorldPositionTrashCat() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 316"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetWorldPositionTrashCat",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : The current state of the connection is not Open.",
+        "trace": "   at AltWebSocketSharp.WebSocket.Send(String data)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Send(CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.AltObject.UpdateObject()\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetWorldPositionTrashCat() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 316"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "58d0a389e4eb4277ad5434e265cfffc0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683019578660,
+      "stop": 1683019599869
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683019578660,
+  "stop": 1683019599870
+}

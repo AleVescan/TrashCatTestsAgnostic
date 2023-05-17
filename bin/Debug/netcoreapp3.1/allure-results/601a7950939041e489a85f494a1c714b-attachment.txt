@@ -1,0 +1,12 @@
+2023-05-08 12:40:49.7154|INFO|Info
+2023-05-08 12:40:49.7350|INFO|AltTester logs are saved at: ./AltTester.log
+Obstacle: ObstacleWheelyBin(Clone), z:49.465, x:0
+Next: ObstacleWheelyBin(Clone), z:49.465, x:1.5
+Obstacle: ObstacleBin(Clone), z:60.707497, x:1.5
+Next: ObstacleBin(Clone), z:60.707497, x:-1.5
+Obstacle: ObstacleWheelyBin(Clone), z:70.154, x:-1.5
+Next: ObstacleRoadworksBarrier(Clone), z:87.697495, x:1.5
+Obstacle: ObstacleRoadworksBarrier(Clone), z:87.697495, x:1.5
+Next: ObstacleRoadworksBarrier(Clone), z:97.144, x:-1.5
+Obstacle: ObstacleRoadworksBarrier(Clone), z:97.144, x:-1.5
+Next: ObstacleRoadworksBarrier(Clone), z:97.144, x:0

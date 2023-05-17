@@ -1,0 +1,80 @@
+{
+  "uuid": "833fe34a-c86c-456b-bf4d-e3ccce247b8b-tr-0-1005",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPlayerDiesWhenObstacleNotAvoided",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPlayerDiesWhenObstacleNotAvoided",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestPlayerDiesWhenObstacleNotAvoided"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestPlayerDiesWhenObstacleNotAvoided",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.WaitTimeOutException : Element //GameOver not loaded after 20 seconds",
+    "trace": "   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.get_GameOverButton() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 12\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.IsDisplayed() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 26\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestPlayerDiesWhenObstacleNotAvoided() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 112"
+  },
+  "stage": "finished",
+  "description": "The player dies if it collides into obstacles",
+  "steps": [
+    {
+      "name": "TestPlayerDiesWhenObstacleNotAvoided",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.WaitTimeOutException : Element //GameOver not loaded after 20 seconds",
+        "trace": "   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.get_GameOverButton() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 12\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.IsDisplayed() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 26\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestPlayerDiesWhenObstacleNotAvoided() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 112"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "67f83ca5c4e84fd0a48716f9025f6fbd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683020883708,
+      "stop": 1683021330322
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683020883708,
+  "stop": 1683021330322
+}

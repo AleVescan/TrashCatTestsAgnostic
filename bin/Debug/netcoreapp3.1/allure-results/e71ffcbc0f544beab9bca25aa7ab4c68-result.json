@@ -1,0 +1,67 @@
+{
+  "uuid": "9776d66c-d43f-4b23-8b0c-af41203c89b5-tr-0-1038",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestNumberOfFishbonesIsSame"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    }
+  ],
+  "links": [],
+  "name": "TestNumberOfFishbonesIsSame",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 78\r\n  But was:  18\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 229\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestNumberOfFishbonesIsSame",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 78\r\n  But was:  18\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfFishbonesIsSame() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 229\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2dfdc97310ba4a7fa4b520b9be1c5352-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681987708888,
+      "stop": 1681987715472
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681987708888,
+  "stop": 1681987715474
+}

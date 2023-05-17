@@ -1,0 +1,73 @@
+{
+  "uuid": "f6682e49-c700-495c-aeb9-e5fba319ede9-tr-0-1025",
+  "historyId": "alttrashcat_tests_csharp.tests.StartPageTests.TestStartPageLoadedCorrectly",
+  "fullName": "alttrashcat_tests_csharp.tests.StartPageTests.TestStartPageLoadedCorrectly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestStartPageLoadedCorrectly"
+    },
+    {
+      "name": "testClass",
+      "value": "StartPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "TestStartPageLoadedCorrectly",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestStartPageLoadedCorrectly"
+  },
+  "stage": "finished",
+  "description": "The start page is loaded correectly with all elements",
+  "steps": [
+    {
+      "name": "TestStartPageLoadedCorrectly",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fdd744d45b32403cba496cfa2e30a7ad-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681971916333,
+      "stop": 1681971917528
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681971916333,
+  "stop": 1681971917529
+}

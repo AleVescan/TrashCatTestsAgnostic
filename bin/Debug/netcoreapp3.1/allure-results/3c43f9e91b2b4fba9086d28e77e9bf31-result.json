@@ -1,0 +1,71 @@
+{
+  "uuid": "0d8313d7-d401-40c2-8edc-ebb98b87b74d-tr-0-1012",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetSCreenPositionTrashCat",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetSCreenPositionTrashCat",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetSCreenPositionTrashCat"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetSCreenPositionTrashCat",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : The current state of the connection is not Open.",
+    "trace": "   at AltWebSocketSharp.WebSocket.Send(String data)\r\n   at Altom.AltDriver.Commands.AltWebSocketClient.Send(String data)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Send(CommandParams param)\r\n   at Altom.AltDriver.Commands.AltPressKeys.Execute()\r\n   at Altom.AltDriver.AltDriver.PressKeys(AltKeyCode[] keyCodes, Single power, Single duration, Boolean wait)\r\n   at Altom.AltDriver.AltDriver.PressKey(AltKeyCode keyCode, Single power, Single duration, Boolean wait)\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetSCreenPositionTrashCat() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 344"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetSCreenPositionTrashCat",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : The current state of the connection is not Open.",
+        "trace": "   at AltWebSocketSharp.WebSocket.Send(String data)\r\n   at Altom.AltDriver.Commands.AltWebSocketClient.Send(String data)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Send(CommandParams param)\r\n   at Altom.AltDriver.Commands.AltPressKeys.Execute()\r\n   at Altom.AltDriver.AltDriver.PressKeys(AltKeyCode[] keyCodes, Single power, Single duration, Boolean wait)\r\n   at Altom.AltDriver.AltDriver.PressKey(AltKeyCode keyCode, Single power, Single duration, Boolean wait)\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetSCreenPositionTrashCat() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 344"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ca5411fceb3e4ea1ac1500aa62ca957d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682599162227,
+      "stop": 1682599168574
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682599162227,
+  "stop": 1682599168576
+}

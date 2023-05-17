@@ -1,0 +1,5 @@
+Property  position
+Property  localPosition
+Property  eulerAngles
+Property  localEulerAngles
+Property  right

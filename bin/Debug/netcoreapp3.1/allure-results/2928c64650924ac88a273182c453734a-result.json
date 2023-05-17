@@ -1,0 +1,73 @@
+{
+  "uuid": "98eaba58-637b-4a82-8b08-8719a4bb6815-tr-0-1051",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyReviveAndGetASecondChance",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyReviveAndGetASecondChance",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UserJourneyReviveAndGetASecondChance"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "UserJourneyReviveAndGetASecondChance",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "UserJourneyReviveAndGetASecondChance"
+  },
+  "stage": "finished",
+  "description": "An user journey in which the player has the most chances of revival by using a life power-up and a second chance",
+  "steps": [
+    {
+      "name": "UserJourneyReviveAndGetASecondChance",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ed81211849e642308d29c0fc2bbda795-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684242367195,
+      "stop": 1684242409981
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684242367195,
+  "stop": 1684242409981
+}

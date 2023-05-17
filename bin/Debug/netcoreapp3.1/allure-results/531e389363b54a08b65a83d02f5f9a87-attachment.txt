@@ -1,0 +1,31 @@
+2023-04-24 09:28:26.3170|INFO|Info
+2023-04-24 09:28:26.3384|INFO|AltTester logs are saved at: ./AltTester.log
+Intial button state code: 0
+Intial button color: {
+  "r": 0.254901975,
+  "g": 0.670588255,
+  "b": 0.239215687,
+  "a": 1.0,
+  "grayscale": 0.4971216,
+  "linear": {
+    "r": 0.0528606549,
+    "g": 0.4072403,
+    "b": 0.0466650836,
+    "a": 1.0,
+    "grayscale": 0.260175228,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.4072403
+  },
+  "gamma": {
+    "r": 0.541908741,
+    "g": 0.838187039,
+    "b": 0.5263194,
+    "a": 1.0,
+    "grayscale": 0.7140469,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.838187039
+  },
+  "maxColorComponent": 0.670588255
+}

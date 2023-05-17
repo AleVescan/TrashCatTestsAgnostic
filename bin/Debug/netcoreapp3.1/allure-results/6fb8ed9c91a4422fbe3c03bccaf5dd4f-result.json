@@ -1,0 +1,67 @@
+{
+  "uuid": "29c03dcd-5c07-49b1-b768-aa0ca1a267bf-tr-0-1050",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestMEthodsThatHandleScenes"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    }
+  ],
+  "links": [],
+  "name": "TestMEthodsThatHandleScenes",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 4. Strings differ at index 0.\r\n  Expected: \"Shop\"\r\n  But was:  \"Main\"\r\n  -----------^\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 250\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestMEthodsThatHandleScenes",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  String lengths are both 4. Strings differ at index 0.\r\n  Expected: \"Shop\"\r\n  But was:  \"Main\"\r\n  -----------^\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.UserJourneyTests.TestMEthodsThatHandleScenes() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 250\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3112ce1466b543b295556c2376e0acad-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682683454095,
+      "stop": 1682683455575
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682683454095,
+  "stop": 1682683455576
+}

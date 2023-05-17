@@ -1,0 +1,44 @@
+{
+  "uuid": "9c1d152b-b349-4f33-a948-b0b0f0e3e2c3-tc-0-1038",
+  "name": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestSetStaticPropertyScreenBrightness",
+  "children": [
+    "ce31ebf1-e74e-436c-aae6-b436cf45517f-tr-0-1048"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683111396298,
+      "stop": 1683111396298
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683111396298,
+      "stop": 1683111396298
+    }
+  ],
+  "links": [],
+  "start": 1683111395030,
+  "stop": 1683111396322
+}

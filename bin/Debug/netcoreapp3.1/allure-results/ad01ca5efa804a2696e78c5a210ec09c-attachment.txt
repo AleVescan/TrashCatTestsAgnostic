@@ -1,0 +1,8 @@
+2023-04-28 00:07:24.6018|INFO|Info
+2023-04-28 00:07:24.6223|INFO|AltTester logs are saved at: ./AltTester.log
+Number of Fields  7
+Field   s_HitHash
+Field   s_BlinkingValueHash
+Field   k_MagnetSpeed
+Field   k_CoinsLayerIndex
+Field   k_ObstacleLayerIndex

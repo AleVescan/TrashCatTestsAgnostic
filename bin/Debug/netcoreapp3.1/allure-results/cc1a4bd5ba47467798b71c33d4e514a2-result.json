@@ -1,0 +1,78 @@
+{
+  "uuid": "aab13680-dc2e-4608-a212-6901d4a23dab-tr-0-1027",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.SliderValuesChangeAsExpected(\"MasterSlider\")",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.SliderValuesChangeAsExpected(\"MasterSlider\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SliderValuesChangeAsExpected"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "SliderValuesChangeAsExpected(\"MasterSlider\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SliderValuesChangeAsExpected(\"MasterSlider\")"
+  },
+  "stage": "finished",
+  "description": "The player can modify the sound settings",
+  "steps": [
+    {
+      "name": "SliderValuesChangeAsExpected(\"MasterSlider\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5a24dde4f0d8459b9aa3f5dc05896c1c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684221286669,
+      "stop": 1684221290087
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "MasterSlider"
+    }
+  ],
+  "start": 1684221286669,
+  "stop": 1684221290088
+}

@@ -1,0 +1,71 @@
+{
+  "uuid": "9f1d5855-9464-4e5d-81de-7380c3b370bc-tr-0-1016",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllFieldssMethod",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllFieldssMethod",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAllFieldssMethod"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetAllFieldssMethod",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 7\r\n  But was:  \"7\"\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllFieldssMethod() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 429\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetAllFieldssMethod",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 7\r\n  But was:  \"7\"\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAllFieldssMethod() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 429\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a30d4ab2d6ae4d25912b89e074cb8023-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682675145644,
+      "stop": 1682675147377
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682675145644,
+  "stop": 1682675147379
+}

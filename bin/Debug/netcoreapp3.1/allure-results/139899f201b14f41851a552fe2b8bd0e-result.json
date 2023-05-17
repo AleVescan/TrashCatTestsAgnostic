@@ -1,0 +1,76 @@
+{
+  "uuid": "bd2850ee-d4d7-4bec-84c5-295fa6c3d0e8-tr-0-1037",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyPlayandPause",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyPlayandPause",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UserJourneyPlayandPause"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "UserJourneyPlayandPause",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.WaitTimeOutException : Element //pauseButton not loaded after 2 seconds",
+    "trace": "   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.get_PauseButton() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 11\r\n   at alttrashcat_tests_csharp.pages.GamePlay.IsDisplayed() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 26\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.<UserJourneyPlayandPause>b__10_0() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 64\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyPlayandPause() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 52"
+  },
+  "stage": "finished",
+  "description": "An user journey in which the player starts the game, pauses it, resumes playing until it dies and the game over screen is displayed",
+  "steps": [
+    {
+      "name": "UserJourneyPlayandPause",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.WaitTimeOutException : Element //pauseButton not loaded after 2 seconds",
+        "trace": "   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.get_PauseButton() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 11\r\n   at alttrashcat_tests_csharp.pages.GamePlay.IsDisplayed() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 26\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.<UserJourneyPlayandPause>b__10_0() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 64\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyPlayandPause() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 52"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7493e5370372443d91b2ff7f47373a72-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682421176602,
+      "stop": 1682421205243
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682421176602,
+  "stop": 1682421205243
+}

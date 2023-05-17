@@ -1,0 +1,71 @@
+{
+  "uuid": "5b7429c1-e325-4557-99e6-6722b8d72ceb-tr-0-1048",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestGetStaticPropertyBrightness",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestGetStaticPropertyBrightness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetStaticPropertyBrightness"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestGetStaticPropertyBrightness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: 0.188235298f\r\n  But was:  1\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestGetStaticPropertyBrightness() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 156\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestGetStaticPropertyBrightness",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: 0.188235298f\r\n  But was:  1\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestGetStaticPropertyBrightness() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 156\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "64e992e45b9147e4a79b6c752a96da79-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684138455332,
+      "stop": 1684138456800
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684138455332,
+  "stop": 1684138456800
+}

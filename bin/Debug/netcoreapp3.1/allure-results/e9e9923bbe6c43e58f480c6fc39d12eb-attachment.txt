@@ -1,0 +1,24 @@
+2023-04-25 10:58:41.7704|INFO|Info
+2023-04-25 10:58:41.7884|INFO|AltTester logs are saved at: ./AltTester.log
+25/04/2023 10:58:41|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:41|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:42|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:42|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:42|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:42|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:42|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:42|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:42|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:42|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:42|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:43|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 10:58:43|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+Intial button state code: 0
+Intial button color RGB : 0.25490198  0.67058825  0.23921569
+Normal color RGB : 0.25490198  0.67058825  0.23921569
+Button state after pointer down 2
+Intial button colorRGB : 0.15410018  0.43382353  0.14354455
+Pressed color RGB : 0.15410018  0.43382353  0.14354455
+Button color after pointer up RGB 0.60960704  0.9338235  0.5973724
+Selected color RGB : 0.60960704  0.9338235  0.5973724
+Button state after pointer up 3

@@ -1,0 +1,10 @@
+2023-05-03 10:25:35.7544|INFO|Info
+2023-05-03 10:25:35.7730|INFO|AltTester logs are saved at: ./AltTester.log
+03/05/2023 10:25:37|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+03/05/2023 10:25:39|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+03/05/2023 10:25:42|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+03/05/2023 10:25:44|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+03/05/2023 10:25:46|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+03/05/2023 10:25:48|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+03/05/2023 10:25:50|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+03/05/2023 10:25:52|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000

@@ -1,0 +1,77 @@
+{
+  "uuid": "ba6ff0b4-1367-4dc3-a821-ec3b06000528-tr-0-1004",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestAvoidingObstacles",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestAvoidingObstacles",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAvoidingObstacles"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestAvoidingObstacles",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestAvoidingObstacles"
+  },
+  "stage": "finished",
+  "description": "The player can avoid a certain number of obstacles without dying",
+  "steps": [
+    {
+      "name": "TestAvoidingObstacles",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e4853cc16517405b8ce9d44d4c29d3ca-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683019419617,
+      "stop": 1683019431937
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683019419617,
+  "stop": 1683019431939
+}

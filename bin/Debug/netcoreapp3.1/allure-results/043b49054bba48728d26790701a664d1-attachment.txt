@@ -1,0 +1,3 @@
+2023-05-04 10:46:15.7495|INFO|Info
+2023-05-04 10:46:15.7679|INFO|AltTester logs are saved at: ./AltTester.log
+Number of cameras is 2

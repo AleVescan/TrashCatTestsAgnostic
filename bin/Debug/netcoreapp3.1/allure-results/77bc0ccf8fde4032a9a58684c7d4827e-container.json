@@ -1,0 +1,44 @@
+{
+  "uuid": "882d4aea-2d4c-4a8f-aa0e-fb28a7e174f7-tc-0-1038",
+  "name": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestBuyMagnetCanBeSetInteractableWithoutEnoughCoins",
+  "children": [
+    "be8d0d64-e85e-476c-8213-9909bb373454-tr-0-1042"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684219754262,
+      "stop": 1684219754262
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684219754262,
+      "stop": 1684219754262
+    }
+  ],
+  "links": [],
+  "start": 1684219750341,
+  "stop": 1684219754271
+}

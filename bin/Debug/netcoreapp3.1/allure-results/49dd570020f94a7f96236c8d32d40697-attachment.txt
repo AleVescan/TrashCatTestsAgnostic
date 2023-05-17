@@ -1,0 +1,3 @@
+2023-05-02 09:56:46.2115|INFO|Info
+2023-05-02 09:56:46.2305|INFO|AltTester logs are saved at: ./AltTester.log
+screensize resolution X 1000 screensize resolution Y 800

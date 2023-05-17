@@ -1,0 +1,44 @@
+{
+  "uuid": "2f2774c1-3d8f-4e6e-85c4-f56cfaaaf4fc-tc-0-1018",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.TestTheUserCanPlayWithRaccoon",
+  "children": [
+    "b8741c14-16c4-4181-88ae-11d6eddd7c0a-tr-0-1024"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682676030304,
+      "stop": 1682676030304
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682676030304,
+      "stop": 1682676030304
+    }
+  ],
+  "links": [],
+  "start": 1682676028106,
+  "stop": 1682676030307
+}

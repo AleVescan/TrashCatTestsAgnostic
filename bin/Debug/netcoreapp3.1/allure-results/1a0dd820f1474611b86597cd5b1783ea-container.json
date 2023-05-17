@@ -1,0 +1,44 @@
+{
+  "uuid": "f06fc1d8-c355-4c45-a5bc-b3caec73e198-tc-0-1018",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.TestGetAppScreenSize",
+  "children": [
+    "30cc2e69-cc8f-4cac-b6ca-3406300de39b-tr-0-1032"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684219712996,
+      "stop": 1684219712996
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684219712996,
+      "stop": 1684219712996
+    }
+  ],
+  "links": [],
+  "start": 1684219711811,
+  "stop": 1684219713007
+}

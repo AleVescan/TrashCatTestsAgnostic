@@ -1,0 +1,86 @@
+{
+  "uuid": "0f5bb145-5a8a-477b-ba62-45a2eac2c519-tr-0-1002",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGameCanBePausedAndResumed",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGameCanBePausedAndResumed",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGameCanBePausedAndResumed"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [
+    {
+      "name": "ABC-2",
+      "url": "https://github.com/nunit/docs/issues?utf8=%E2%9C%93&q=ABC-2",
+      "type": "issue"
+    }
+  ],
+  "name": "TestGameCanBePausedAndResumed",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.WaitTimeOutException : Element //Resume not loaded after 2 seconds",
+    "trace": "   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.PauseOverlayPage.get_ResumeButton() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\PauseOverlayPage.cs:line 11\r\n   at alttrashcat_tests_csharp.pages.PauseOverlayPage.IsDisplayed() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\PauseOverlayPage.cs:line 17\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGameCanBePausedAndResumed() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 69"
+  },
+  "stage": "finished",
+  "description": "Test to see if the gameplay can be paused and resumes correctly afterwards",
+  "steps": [
+    {
+      "name": "TestGameCanBePausedAndResumed",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.WaitTimeOutException : Element //Resume not loaded after 2 seconds",
+        "trace": "   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.PauseOverlayPage.get_ResumeButton() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\PauseOverlayPage.cs:line 11\r\n   at alttrashcat_tests_csharp.pages.PauseOverlayPage.IsDisplayed() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\PauseOverlayPage.cs:line 17\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGameCanBePausedAndResumed() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 69"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7fe54438722a4131b128881460a3daa9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683018215516,
+      "stop": 1683018218935
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683018215516,
+  "stop": 1683018218936
+}

@@ -1,0 +1,15 @@
+2023-04-18 14:00:14.1129|INFO|Info
+2023-04-18 14:00:14.1306|INFO|AltTester logs are saved at: ./AltTester.log
+18/04/2023 14:00:16|Fatal|WebSocket.connect|System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+                             at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+                             at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+                             at System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                          --- End of stack trace from previous location where exception was thrown ---
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                             at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+                             at WebSocketSharp.WebSocket.setClientStream()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:00:34|Error|WebSocket.Send|This operation isn't available in: closed
+18/04/2023 14:00:34|Error|WebSocket.Close|This operation isn't available in: closed

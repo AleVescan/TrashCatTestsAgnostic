@@ -1,0 +1,83 @@
+{
+  "uuid": "b95f0245-dc9a-4bf2-99c1-9a8b9666bd51-tr-0-1002",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGameCanBePausedAndResumed",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGameCanBePausedAndResumed",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGameCanBePausedAndResumed"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [
+    {
+      "name": "ABC-2",
+      "url": "https://github.com/nunit/docs/issues?utf8=%E2%9C%93&q=ABC-2",
+      "type": "issue"
+    }
+  ],
+  "name": "TestGameCanBePausedAndResumed",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestGameCanBePausedAndResumed"
+  },
+  "stage": "finished",
+  "description": "Test to see if the gameplay can be paused and resumes correctly afterwards",
+  "steps": [
+    {
+      "name": "TestGameCanBePausedAndResumed",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "91c76f335bf24716a2dc8e159b021fbd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681971771830,
+      "stop": 1681971773369
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681971771830,
+  "stop": 1681971773370
+}

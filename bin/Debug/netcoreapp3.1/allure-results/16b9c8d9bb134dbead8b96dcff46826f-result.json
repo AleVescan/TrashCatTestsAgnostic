@@ -1,0 +1,76 @@
+{
+  "uuid": "e45f8781-05f9-42d4-b152-0143c27a0cd6-tr-0-1052",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyPlayandPause",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyPlayandPause",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UserJourneyPlayandPause"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "UserJourneyPlayandPause",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.NotFoundException : Object //*[@id=-582092] not found",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.AltDriver.FindObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.AvoidObstacles(Int32 numberOfObstacles) in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 130\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.<UserJourneyPlayandPause>b__10_0() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 58\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyPlayandPause() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 52"
+  },
+  "stage": "finished",
+  "description": "An user journey in which the player starts the game, pauses it, resumes playing until it dies and the game over screen is displayed",
+  "steps": [
+    {
+      "name": "UserJourneyPlayandPause",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.NotFoundException : Object //*[@id=-582092] not found",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.AltDriver.FindObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.AvoidObstacles(Int32 numberOfObstacles) in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 130\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.<UserJourneyPlayandPause>b__10_0() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 58\r\n   at NUnit.Framework.Assert.Multiple(TestDelegate testDelegate)\r\n   at alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyPlayandPause() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\UserJourneyTests.cs:line 52"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "26f8a85c787543e49237cc0d1fa42784-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684138498655,
+      "stop": 1684138573487
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684138498655,
+  "stop": 1684138573487
+}

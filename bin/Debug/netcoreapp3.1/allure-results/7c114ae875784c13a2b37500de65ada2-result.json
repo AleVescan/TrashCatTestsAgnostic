@@ -1,0 +1,80 @@
+{
+  "uuid": "afdffb5f-334b-41b7-99de-4ce9b017e186-tr-0-1004",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestAvoidingObstacles",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestAvoidingObstacles",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestAvoidingObstacles"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestAvoidingObstacles",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.NotFoundException : Object //*[@id=-10018] not found",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.AltDriver.FindObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.AvoidObstacles(Int32 numberOfObstacles) in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 130\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestAvoidingObstacles() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 90"
+  },
+  "stage": "finished",
+  "description": "The player can avoid a certain number of obstacles without dying",
+  "steps": [
+    {
+      "name": "TestAvoidingObstacles",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.NotFoundException : Object //*[@id=-10018] not found",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.AltDriver.FindObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled)\r\n   at alttrashcat_tests_csharp.pages.GamePlay.AvoidObstacles(Int32 numberOfObstacles) in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GamePlay.cs:line 130\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestAvoidingObstacles() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 90"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3b897dbbd544495c8890f5490fd9b7c2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683015348637,
+      "stop": 1683018171748
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683015348636,
+  "stop": 1683018171750
+}

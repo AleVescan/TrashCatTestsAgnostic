@@ -1,0 +1,2 @@
+2023-04-18 09:52:24.3909|INFO|Info
+2023-04-18 09:52:24.4078|INFO|AltTester logs are saved at: ./AltTester.log

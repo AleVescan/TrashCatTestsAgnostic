@@ -1,0 +1,7 @@
+2023-04-26 16:37:56.1149|INFO|Info
+2023-04-26 16:37:56.1370|INFO|AltTester logs are saved at: ./AltTester.log
+26/04/2023 16:37:58|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+Screen position of character X axis 287
+Screen position of character Y axis 102
+Screen position of character after some time X axis 287
+Screen position of character after some time Y axis 102

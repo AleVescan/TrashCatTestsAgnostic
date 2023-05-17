@@ -1,0 +1,71 @@
+{
+  "uuid": "515921c9-5bee-4637-b5a7-40bac4c36b87-tr-0-1009",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestDistanceModifieddWithinGame",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestDistanceModifieddWithinGame",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestDistanceModifieddWithinGame"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestDistanceModifieddWithinGame",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 4 but was 5. Strings differ at index 0.\r\n  Expected: \"196m\"\r\n  But was:  \"3000m\"\r\n  -----------^\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestDistanceModifieddWithinGame() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 196\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestDistanceModifieddWithinGame",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 4 but was 5. Strings differ at index 0.\r\n  Expected: \"196m\"\r\n  But was:  \"3000m\"\r\n  -----------^\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestDistanceModifieddWithinGame() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 196\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b711718520574986b6b41149265ed893-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681971750283,
+      "stop": 1681971771821
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681971750283,
+  "stop": 1681971771821
+}

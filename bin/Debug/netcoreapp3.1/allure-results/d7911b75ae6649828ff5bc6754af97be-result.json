@@ -1,0 +1,64 @@
+{
+  "uuid": "e07af418-a12c-4b47-afd3-f562c876fbda-tr-0-1059",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.Dispose",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.Dispose",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Dispose"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    }
+  ],
+  "links": [],
+  "name": "Dispose",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Dispose"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "432832d0ceee4c7fb1b7031ce7408acc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684138471773,
+      "stop": 1684138474174
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684138471773,
+  "stop": 1684138474174
+}

@@ -1,0 +1,16 @@
+2023-04-24 19:25:13.8175|INFO|Info
+2023-04-24 19:25:13.8361|INFO|AltTester logs are saved at: ./AltTester.log
+Intial button state code: 0
+Intial button color RGB : 0.25490198  0.67058825  0.23921569
+Normal color RGB : 0.25490198  0.67058825  0.23921569
+Button state after pointer down 2
+Intial button colorRGB : 0.15410018  0.43382353  0.14354455
+Pressed color RGB : 0.15410018  0.43382353  0.14354455
+Button color after pointer up RGB 0.60960704  0.9338235  0.5973724
+Selected color RGB : 0.60960704  0.9338235  0.5973724
+Button state after pointer up 3
+Button color after pointer enter RGB 0.60960704  0.9338235  0.5973724
+Button state after pointer enter 3
+Button color after pointer exit RGB 0.60960704  0.9338235  0.5973724
+Normal color RGB : 0.25490198  0.67058825  0.23921569
+Button state after pointer enter 3

@@ -1,0 +1,80 @@
+{
+  "uuid": "33cb046e-852b-4e86-ae39-0b6ba59fa1ee-tr-0-1007",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAnotherChangeDisabledWhenNotEnoughCoins",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAnotherChangeDisabledWhenNotEnoughCoins",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestGetAnotherChangeDisabledWhenNotEnoughCoins"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestGetAnotherChangeDisabledWhenNotEnoughCoins",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : The current state of the connection is not Open.",
+    "trace": "   at AltWebSocketSharp.WebSocket.Send(String data)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Send(CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.get_PremiumButton() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 13\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.get_GetAnotherChangeObjectState() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 21\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAnotherChangeDisabledWhenNotEnoughCoins() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 167"
+  },
+  "stage": "finished",
+  "description": "The player can not select to get another chance when there aren`t enough premim coins",
+  "steps": [
+    {
+      "name": "TestGetAnotherChangeDisabledWhenNotEnoughCoins",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : The current state of the connection is not Open.",
+        "trace": "   at AltWebSocketSharp.WebSocket.Send(String data)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Send(CommandParams param)\r\n   at Altom.AltDriver.Commands.AltFindObject.Execute()\r\n   at Altom.AltDriver.Commands.AltWaitForObject.Execute()\r\n   at Altom.AltDriver.AltDriver.WaitForObject(By by, String value, By cameraBy, String cameraValue, Boolean enabled, Double timeout, Double interval)\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.get_PremiumButton() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 13\r\n   at alttrashcat_tests_csharp.pages.GetAnotherChancePage.get_GetAnotherChangeObjectState() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\GetAnotherChancePage.cs:line 21\r\n   at alttrashcat_tests_csharp.tests.GamePlayTests.TestGetAnotherChangeDisabledWhenNotEnoughCoins() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 167"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "050467aa35784a61b19cefeba60c0455-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683025697233,
+      "stop": 1683025742040
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683025697233,
+  "stop": 1683025742041
+}

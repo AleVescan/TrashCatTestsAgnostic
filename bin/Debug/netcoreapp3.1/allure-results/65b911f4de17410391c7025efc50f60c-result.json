@@ -1,0 +1,71 @@
+{
+  "uuid": "072c187d-637e-4050-a7ba-cb9df5e4ff06-tr-0-1045",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestPointerEnterAndExit",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestPointerEnterAndExit",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestPointerEnterAndExit"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestPointerEnterAndExit",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.MethodWithGivenParametersNotFoundException : No method found with 0 parameters matching signature: IsPointerOverGameObject()",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCallComponentMethod`1.Execute()\r\n   at Altom.AltDriver.AltObject.CallComponentMethod[T](String componentName, String methodName, String assemblyName, Object[] parameters, String[] typeOfParameters)\r\n   at alttrashcat_tests_csharp.pages.StorePage.IsPointerOnObject() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\StorePage.cs:line 171\r\n   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestPointerEnterAndExit() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 149"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestPointerEnterAndExit",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.MethodWithGivenParametersNotFoundException : No method found with 0 parameters matching signature: IsPointerOverGameObject()",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltCallComponentMethod`1.Execute()\r\n   at Altom.AltDriver.AltObject.CallComponentMethod[T](String componentName, String methodName, String assemblyName, Object[] parameters, String[] typeOfParameters)\r\n   at alttrashcat_tests_csharp.pages.StorePage.IsPointerOnObject() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\pages\\StorePage.cs:line 171\r\n   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestPointerEnterAndExit() in C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 149"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5ccada1196de422ca1de08740139750e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683015215234,
+      "stop": 1683015216724
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683015215234,
+  "stop": 1683015216724
+}

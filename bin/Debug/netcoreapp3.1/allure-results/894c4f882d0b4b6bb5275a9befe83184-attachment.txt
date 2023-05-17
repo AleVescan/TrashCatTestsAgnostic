@@ -1,0 +1,7 @@
+2023-04-26 21:24:46.3321|INFO|Info
+2023-04-26 21:24:46.3529|INFO|AltTester logs are saved at: ./AltTester.log
+All components are 4
+First component is Altom.AltDriver.AltComponent
+Second component is Altom.AltDriver.AltComponent
+Third component is Altom.AltDriver.AltComponent
+Fourth component is Altom.AltDriver.AltComponent

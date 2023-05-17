@@ -1,0 +1,1575 @@
+2023-04-18 14:41:59.1621|INFO|Info
+2023-04-18 14:41:59.1804|INFO|AltTester logs are saved at: ./AltTester.log
+18/04/2023 14:41:59|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:41:59|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:41:59|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:41:59|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:41:59|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:41:59|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:41:59|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:41:59|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:00|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:00|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:00|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:00|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:00|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:00|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:00|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:00|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:00|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:01|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:01|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:01|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:01|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:01|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:01|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:01|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:01|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:01|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:02|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:02|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:02|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:02|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:02|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:02|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:02|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:02|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:02|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:03|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:03|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:03|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:03|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:03|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:03|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:03|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:03|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:03|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:04|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:05|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:05|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:05|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:05|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:05|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:05|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:05|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:05|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:05|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:06|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:06|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:06|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:06|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:06|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:06|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:06|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:06|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:06|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:07|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:07|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:07|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:07|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:07|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:07|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:07|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:07|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:07|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:08|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:08|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:08|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:08|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:08|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:08|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:08|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:08|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:08|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:09|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:09|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:09|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:09|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:09|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:09|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:09|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:09|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:09|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:10|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:11|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:11|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:11|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:11|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:11|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:11|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:11|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:11|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:11|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:12|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:12|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+18/04/2023 14:42:12|Fatal|WebSocket.connect|WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+                           ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+                             at WebSocketSharp.HttpBase.<>c__DisplayClass1.<readHeaders>b__0(Int32 i)
+                             at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action)
+                             at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength)
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             --- End of inner exception stack trace ---
+                             at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout)
+                             at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout)
+                             at WebSocketSharp.WebSocket.sendHandshakeRequest()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()

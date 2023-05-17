@@ -1,0 +1,3 @@
+2023-05-02 10:58:03.0620|INFO|Info
+2023-05-02 10:58:03.0876|INFO|AltTester logs are saved at: ./AltTester.log
+timescale is 1

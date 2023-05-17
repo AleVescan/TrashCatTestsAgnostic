@@ -1,0 +1,44 @@
+{
+  "uuid": "4a47a473-a973-4c8e-99aa-4522cbf6969b-tc-0-1018",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.SliderValuesChangeAsExpected(\"MusicSlider\")",
+  "children": [
+    "124c4f0f-348a-43e4-a81a-8431ac8dae0f-tr-0-1028"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684219708362,
+      "stop": 1684219708362
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684219708362,
+      "stop": 1684219708362
+    }
+  ],
+  "links": [],
+  "start": 1684219706701,
+  "stop": 1684219708372
+}

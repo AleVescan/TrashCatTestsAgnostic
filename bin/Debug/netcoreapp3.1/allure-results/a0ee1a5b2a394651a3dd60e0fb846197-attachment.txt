@@ -1,0 +1,7 @@
+2023-04-27 23:56:46.0108|INFO|Info
+2023-04-27 23:56:46.0310|INFO|AltTester logs are saved at: ./AltTester.log
+Method  UnityEngine.Vector3 get_position()
+Method   Void set_position(UnityEngine.Vector3)
+Method   UnityEngine.Vector3 get_localPosition()
+Method   Void set_localPosition(UnityEngine.Vector3)
+Method   UnityEngine.Vector3 GetLocalEulerAngles(UnityEngine.RotationOrder)

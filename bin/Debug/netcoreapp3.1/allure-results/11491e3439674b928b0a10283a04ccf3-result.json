@@ -1,0 +1,73 @@
+{
+  "uuid": "46ffa918-4d7a-4181-a7c5-abb801297646-tr-0-1053",
+  "historyId": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyBuyItems",
+  "fullName": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyBuyItems",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UserJourneyBuyItems"
+    },
+    {
+      "name": "testClass",
+      "value": "UserJourneyTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    }
+  ],
+  "links": [],
+  "name": "UserJourneyBuyItems",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "UserJourneyBuyItems"
+  },
+  "stage": "finished",
+  "description": "An user journey in which the game data is reset and after adding coins the user buys store items and uses them in gameplay",
+  "steps": [
+    {
+      "name": "UserJourneyBuyItems",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "47420176a998496982660ac0c2b5c8ef-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683539134055,
+      "stop": 1683539139400
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683539134055,
+  "stop": 1683539139400
+}

@@ -1,0 +1,15 @@
+2023-04-25 11:17:02.3309|INFO|Info
+2023-04-25 11:17:02.3503|INFO|AltTester logs are saved at: ./AltTester.log
+25/04/2023 11:17:02|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:02|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:02|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:02|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:02|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:02|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:03|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:03|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:03|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:03|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:03|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:03|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.
+25/04/2023 11:17:03|Fatal|WebSocket.connect|An exception has occurred while reading an HTTP request/response.

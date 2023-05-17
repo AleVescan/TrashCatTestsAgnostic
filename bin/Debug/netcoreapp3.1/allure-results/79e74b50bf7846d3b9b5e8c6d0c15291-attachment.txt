@@ -1,0 +1,7 @@
+2023-04-28 14:00:31.8179|INFO|Info
+2023-04-28 14:00:31.8374|INFO|AltTester logs are saved at: ./AltTester.log
+Numer of loaded scenes 1
+Name of loaded scenes Main
+Numer of loaded scenes 2
+Name of loaded scenes Main
+Name of loaded scenes Shop

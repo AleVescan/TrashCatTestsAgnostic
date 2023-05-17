@@ -1,0 +1,3 @@
+2023-04-26 21:13:46.8500|INFO|Info
+2023-04-26 21:13:46.8758|INFO|AltTester logs are saved at: ./AltTester.log
+All components are 4

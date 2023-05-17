@@ -1,0 +1,44 @@
+{
+  "uuid": "0e239eb6-37b4-45f2-95aa-f0fdf0fec061-tc-0-1011",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.SliderValuesChangeAsExpected(\"MasterSlider\")",
+  "children": [
+    "aba4cc5b-b50d-44bb-b268-83f6e9cae950-tr-0-1020"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682421622259,
+      "stop": 1682421622259
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682421622259,
+      "stop": 1682421622259
+    }
+  ],
+  "links": [],
+  "start": 1682421620556,
+  "stop": 1682421622268
+}

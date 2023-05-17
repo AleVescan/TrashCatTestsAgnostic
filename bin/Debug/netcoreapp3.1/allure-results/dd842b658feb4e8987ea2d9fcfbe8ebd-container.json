@@ -1,0 +1,44 @@
+{
+  "uuid": "a306674b-30c7-4128-89cb-fe558933599b-tc-0-1000",
+  "name": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPlayerDiesWhenObstacleNotAvoided",
+  "children": [
+    "d78e83e0-a02c-41b1-8a6a-38cab6fad970-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683022675857,
+      "stop": 1683022675857
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683022675857,
+      "stop": 1683022675857
+    }
+  ],
+  "links": [],
+  "start": 1683022651708,
+  "stop": 1683022675862
+}

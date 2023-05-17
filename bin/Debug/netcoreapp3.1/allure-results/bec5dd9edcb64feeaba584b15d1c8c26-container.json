@@ -1,0 +1,44 @@
+{
+  "uuid": "9cc06414-b24a-4fa7-98a4-704c4f5aa22a-tc-0-1018",
+  "name": "alttrashcat_tests_csharp.tests.MainMenuTests.SliderValuesChangeAsExpected(\"MasterSFXSlider\")",
+  "children": [
+    "0f3871ed-d0db-4309-8475-f9e800a712be-tr-0-1029"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683120018702,
+      "stop": 1683120018702
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683120018702,
+      "stop": 1683120018702
+    }
+  ],
+  "links": [],
+  "start": 1683120016935,
+  "stop": 1683120018709
+}

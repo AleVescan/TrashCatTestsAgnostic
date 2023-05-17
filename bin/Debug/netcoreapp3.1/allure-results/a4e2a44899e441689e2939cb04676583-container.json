@@ -1,0 +1,44 @@
+{
+  "uuid": "9bd4fd85-0858-46b9-81d6-b186395b1ae0-tc-0-1039",
+  "name": "alttrashcat_tests_csharp.tests.UserJourneyTests.UserJourneyPlayandPause",
+  "children": [
+    "9b64ba64-7d65-4616-b8c8-bf81decca0f1-tr-0-1040"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682497819723,
+      "stop": 1682497819723
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1682497819723,
+      "stop": 1682497819723
+    }
+  ],
+  "links": [],
+  "start": 1682497787087,
+  "stop": 1682497819731
+}

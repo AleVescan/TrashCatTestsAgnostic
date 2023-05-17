@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\alexandra.vescan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\alexandra.vescan\\.nuget\\packages"
+    ]
+  }
+}

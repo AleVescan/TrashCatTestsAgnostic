@@ -1,0 +1,64 @@
+{
+  "uuid": "63ab7254-54eb-4bd1-8efa-03e4c8b13770-tr-0-1033",
+  "historyId": "alttrashcat_tests_csharp.tests.MainMenuTests.TestSetStaticCameraCount",
+  "fullName": "alttrashcat_tests_csharp.tests.MainMenuTests.TestSetStaticCameraCount",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSetStaticCameraCount"
+    },
+    {
+      "name": "testClass",
+      "value": "MainMenuTests"
+    }
+  ],
+  "links": [],
+  "name": "TestSetStaticCameraCount",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestSetStaticCameraCount"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestSetStaticCameraCount",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7c03fc0563d949adad876293f144237a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683186508287,
+      "stop": 1683186509645
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683186508287,
+  "stop": 1683186509647
+}

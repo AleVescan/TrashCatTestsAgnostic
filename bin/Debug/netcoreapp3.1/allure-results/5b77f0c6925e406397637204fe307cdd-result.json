@@ -1,0 +1,71 @@
+{
+  "uuid": "343ab072-22d8-4680-b5a5-ddd2e774a762-tr-0-1048",
+  "historyId": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestSetStaticPropertyScreenBrightness",
+  "fullName": "alttrashcat_tests_csharp.tests.StoreMenuTests.TestSetStaticPropertyScreenBrightness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestSetStaticPropertyScreenBrightness"
+    },
+    {
+      "name": "testClass",
+      "value": "StoreMenuTests"
+    },
+    {
+      "name": "suite",
+      "value": "Store"
+    }
+  ],
+  "links": [],
+  "name": "TestSetStaticPropertyScreenBrightness",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Altom.AltDriver.NullReferenceException : Object reference not set to an instance of an object",
+    "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltSetStaticProperty.Execute()\r\n   at Altom.AltDriver.AltDriver.SetStaticProperty(String componentName, String propertyName, String assemblyName, Object updatedProperty)\r\n   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestSetStaticPropertyScreenBrightness() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 163"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestSetStaticPropertyScreenBrightness",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Altom.AltDriver.NullReferenceException : Object reference not set to an instance of an object",
+        "trace": "   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.handleErrors(CommandError error)\r\n   at Altom.AltDriver.Commands.DriverCommunicationWebSocket.Recvall[T](CommandParams param)\r\n   at Altom.AltDriver.Commands.AltSetStaticProperty.Execute()\r\n   at Altom.AltDriver.AltDriver.SetStaticProperty(String componentName, String propertyName, String assemblyName, Object updatedProperty)\r\n   at alttrashcat_tests_csharp.tests.StoreMenuTests.TestSetStaticPropertyScreenBrightness() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\StoreMenuTests.cs:line 163"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d1c5036edb044bce9df956c76dc47aa1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683111487843,
+      "stop": 1683111489103
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683111487843,
+  "stop": 1683111489105
+}

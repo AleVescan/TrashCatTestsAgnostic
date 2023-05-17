@@ -1,0 +1,77 @@
+{
+  "uuid": "2ed28a28-d2ae-40de-8baa-49a8bfbf0601-tr-0-1005",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPlayerDiesWhenObstacleNotAvoided",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestPlayerDiesWhenObstacleNotAvoided",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestPlayerDiesWhenObstacleNotAvoided"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "AleV"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestPlayerDiesWhenObstacleNotAvoided",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestPlayerDiesWhenObstacleNotAvoided"
+  },
+  "stage": "finished",
+  "description": "The player dies if it collides into obstacles",
+  "steps": [
+    {
+      "name": "TestPlayerDiesWhenObstacleNotAvoided",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "af2cfa969cc04da3bfd90752906feb7b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1680605578526,
+      "stop": 1680605599411
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680605578526,
+  "stop": 1680605599411
+}

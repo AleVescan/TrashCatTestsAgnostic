@@ -1,0 +1,44 @@
+{
+  "uuid": "d60fc68e-3a5a-499a-aa53-429f61b9cfb0-tc-0-1032",
+  "name": "alttrashcat_tests_csharp.tests.UserJourneyTests.TestNumberOfUntaggedElementsSameAsInAltDesktop",
+  "children": [
+    "fd9c19c5-8e92-4aea-a64f-e91aed15b4ab-tr-0-1038"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681987300676,
+      "stop": 1681987300676
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681987300676,
+      "stop": 1681987300676
+    }
+  ],
+  "links": [],
+  "start": 1681987299285,
+  "stop": 1681987300698
+}

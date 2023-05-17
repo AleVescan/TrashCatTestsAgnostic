@@ -1,0 +1,44 @@
+{
+  "uuid": "c06d3cf9-5c49-4348-9bf9-901a1be45895-tc-0-1000",
+  "name": "alttrashcat_tests_csharp.tests.GamePlayTests.TestThatTrashCatBecomesInvincible",
+  "children": [
+    "60668412-7a17-4190-89a9-db5a160530ee-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681800767216,
+      "stop": 1681800767216
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681800767216,
+      "stop": 1681800767216
+    }
+  ],
+  "links": [],
+  "start": 1681800744329,
+  "stop": 1681800767238
+}

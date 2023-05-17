@@ -1,0 +1,11 @@
+2023-05-02 12:27:44.0485|INFO|Info
+2023-05-02 12:27:44.0690|INFO|AltTester logs are saved at: ./AltTester.log
+All components are 4
+First component is UnityEngine.Transform
+Second component is CharacterInputController
+Third component is UnityEngine.AudioSource
+Fourth component is UnityEngine.AudioSource
+First assembly is UnityEngine.CoreModule
+Second assembly is Assembly-CSharp
+Third assembly is UnityEngine.AudioModule
+Fourth assembly is UnityEngine.AudioModule

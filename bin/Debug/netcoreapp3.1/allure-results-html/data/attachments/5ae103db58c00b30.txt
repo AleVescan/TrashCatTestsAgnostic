@@ -1,0 +1,67 @@
+2023-04-04 15:24:57.0747|INFO|Info
+2023-04-04 15:24:57.0905|INFO|AltTester logs are saved at: ./AltTester.log
+04/04/2023 15:24:59|Fatal|WebSocket.connect|System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+                             at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+                             at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+                             at System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                          --- End of stack trace from previous location where exception was thrown ---
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                             at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+                             at WebSocketSharp.WebSocket.setClientStream()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+04/04/2023 15:25:01|Fatal|WebSocket.connect|System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+                             at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+                             at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+                             at System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                          --- End of stack trace from previous location where exception was thrown ---
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                             at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+                             at WebSocketSharp.WebSocket.setClientStream()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+04/04/2023 15:25:03|Fatal|WebSocket.connect|System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+                             at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+                             at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+                             at System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                          --- End of stack trace from previous location where exception was thrown ---
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                             at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+                             at WebSocketSharp.WebSocket.setClientStream()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+04/04/2023 15:25:05|Fatal|WebSocket.connect|System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+                             at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+                             at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+                             at System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                          --- End of stack trace from previous location where exception was thrown ---
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                             at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+                             at WebSocketSharp.WebSocket.setClientStream()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+04/04/2023 15:25:07|Fatal|WebSocket.connect|System.Net.Internals.SocketExceptionFactory+ExtendedSocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:13000
+                             at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+                             at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+                             at System.Net.Sockets.Socket.Connect(IPAddress address, Int32 port)
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                          --- End of stack trace from previous location where exception was thrown ---
+                             at System.Net.Sockets.TcpClient.Connect(String hostname, Int32 port)
+                             at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+                             at WebSocketSharp.WebSocket.setClientStream()
+                             at WebSocketSharp.WebSocket.doHandshake()
+                             at WebSocketSharp.WebSocket.connect()
+Obstacle: ObstacleWheelyBin(Clone), z:24.7275, x:1.5
+Next: ObstacleWheelyBin(Clone), z:24.7275, x:-1.5
+Obstacle: ObstacleWheelyBin(Clone), z:34.174, x:1.5
+Next: ObstacleRat(Clone), z:80.935, x:1.285018
+Obstacle: ObstacleRat(Clone), z:80.935, x:-0.020174026
+Next: ObstacleBin(Clone), z:105.66749, x:-1.5
+Obstacle: ObstacleBin(Clone), z:105.66749, x:-1.5
+Next: ObstacleBin(Clone), z:105.66749, x:0
+Obstacle: ObstacleBin(Clone), z:15.02935, x:0
+Next: ObstacleHighBarrier(Clone), z:34.82036, x:0

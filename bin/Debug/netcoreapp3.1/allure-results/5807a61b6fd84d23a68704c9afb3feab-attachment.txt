@@ -1,0 +1,175 @@
+2023-04-24 09:53:19.8173|INFO|Info
+2023-04-24 09:53:19.8348|INFO|AltTester logs are saved at: ./AltTester.log
+Intial button state code: 0
+Intial button color: {
+  "r": 0.254901975,
+  "g": 0.670588255,
+  "b": 0.239215687,
+  "a": 1.0,
+  "grayscale": 0.4971216,
+  "linear": {
+    "r": 0.0528606549,
+    "g": 0.4072403,
+    "b": 0.0466650836,
+    "a": 1.0,
+    "grayscale": 0.260175228,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.4072403
+  },
+  "gamma": {
+    "r": 0.541908741,
+    "g": 0.838187039,
+    "b": 0.5263194,
+    "a": 1.0,
+    "grayscale": 0.7140469,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.838187039
+  },
+  "maxColorComponent": 0.670588255
+}
+Button state after pointer down 2
+Button color after pointer down: {
+  "r": 0.15410018,
+  "g": 0.433823526,
+  "b": 0.143544555,
+  "a": 1.0,
+  "grayscale": 0.317094445,
+  "linear": {
+    "r": 0.0205610227,
+    "g": 0.157818958,
+    "b": 0.0181573834,
+    "a": 1.0,
+    "grayscale": 0.100857414,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.157818958
+  },
+  "gamma": {
+    "r": 0.428990752,
+    "g": 0.6899599,
+    "b": 0.414890736,
+    "a": 1.0,
+    "grayscale": 0.580572248,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.6899599
+  },
+  "maxColorComponent": 0.433823526
+}
+Button color after pointer colorData {
+  "r": 0.15410018,
+  "g": 0.433823526,
+  "b": 0.143544555,
+  "a": 1.0,
+  "grayscale": 0.317094445,
+  "linear": {
+    "r": 0.0205610227,
+    "g": 0.157818958,
+    "b": 0.0181573834,
+    "a": 1.0,
+    "grayscale": 0.100857414,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.157818958
+  },
+  "gamma": {
+    "r": 0.428990752,
+    "g": 0.6899599,
+    "b": 0.414890736,
+    "a": 1.0,
+    "grayscale": 0.580572248,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.6899599
+  },
+  "maxColorComponent": 0.433823526
+}
+Button color after pointer up {
+  "r": 0.609607041,
+  "g": 0.9338235,
+  "b": 0.5973724,
+  "a": 1.0,
+  "grayscale": 0.79852736,
+  "linear": {
+    "r": 0.329875469,
+    "g": 0.856010854,
+    "b": 0.3154885,
+    "a": 1.0,
+    "grayscale": 0.637076855,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.856010854
+  },
+  "gamma": {
+    "r": 0.8034004,
+    "g": 0.9703279,
+    "b": 0.796179652,
+    "a": 1.0,
+    "grayscale": 0.9005637,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.9703279
+  },
+  "maxColorComponent": 0.9338235
+}
+Button state after pointer up 3
+Button color after pointer enter {
+  "r": 0.609607041,
+  "g": 0.9338235,
+  "b": 0.5973724,
+  "a": 1.0,
+  "grayscale": 0.79852736,
+  "linear": {
+    "r": 0.329875469,
+    "g": 0.856010854,
+    "b": 0.3154885,
+    "a": 1.0,
+    "grayscale": 0.637076855,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.856010854
+  },
+  "gamma": {
+    "r": 0.8034004,
+    "g": 0.9703279,
+    "b": 0.796179652,
+    "a": 1.0,
+    "grayscale": 0.9005637,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.9703279
+  },
+  "maxColorComponent": 0.9338235
+}
+Button state after pointer enter 3
+Button color after pointer exit {
+  "r": 0.609607041,
+  "g": 0.9338235,
+  "b": 0.5973724,
+  "a": 1.0,
+  "grayscale": 0.79852736,
+  "linear": {
+    "r": 0.329875469,
+    "g": 0.856010854,
+    "b": 0.3154885,
+    "a": 1.0,
+    "grayscale": 0.637076855,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.856010854
+  },
+  "gamma": {
+    "r": 0.8034004,
+    "g": 0.9703279,
+    "b": 0.796179652,
+    "a": 1.0,
+    "grayscale": 0.9005637,
+    "linear": {},
+    "gamma": {},
+    "maxColorComponent": 0.9703279
+  },
+  "maxColorComponent": 0.9338235
+}
+Button state after pointer exit 3

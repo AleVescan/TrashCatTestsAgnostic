@@ -1,0 +1,4 @@
+Screen position of character X axis 283
+Screen position of character Y axis 194
+Screen position of character after some time X axis 70
+Screen position of character after some time Y axis 180

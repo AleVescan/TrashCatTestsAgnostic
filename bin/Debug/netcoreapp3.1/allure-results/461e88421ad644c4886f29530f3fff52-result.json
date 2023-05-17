@@ -1,0 +1,71 @@
+{
+  "uuid": "dd8c3e9a-3fc8-4630-98c3-20b8cbb61016-tr-0-1009",
+  "historyId": "alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame",
+  "fullName": "alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ALTOM-PC68"
+    },
+    {
+      "name": "package",
+      "value": "alttrashcat_tests_csharp.tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestScoreIsMultipedWithinGame"
+    },
+    {
+      "name": "testClass",
+      "value": "GamePlayTests"
+    },
+    {
+      "name": "suite",
+      "value": "Gameplay"
+    }
+  ],
+  "links": [],
+  "name": "TestScoreIsMultipedWithinGame",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 3. Strings differ at index 2.\r\n  Expected: \"x 1\"\r\n  But was:  \"x 5\"\r\n  -------------^\r\n",
+    "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 192\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestScoreIsMultipedWithinGame",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  String lengths are both 3. Strings differ at index 2.\r\n  Expected: \"x 1\"\r\n  But was:  \"x 5\"\r\n  -------------^\r\n",
+        "trace": "   at alttrashcat_tests_csharp.tests.GamePlayTests.TestScoreIsMultipedWithinGame() in c:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\tests\\GamePlayTests.cs:line 192\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "53ec51ae36ca48f2a38e35c81fa6a006-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681818226328,
+      "stop": 1681818247893
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681818226328,
+  "stop": 1681818247895
+}
