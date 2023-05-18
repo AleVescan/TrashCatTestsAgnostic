@@ -1,6 +1,6 @@
 {
 	"allure": {
-		"directory": "C:\\GitProjects\\FORK-CSharp-AltTrashCat\\EXAMPLES-CSharp-Standalone-AltTrashCat\\TestAlttrashCSharp\\bin\\Debug\\netcoreapp3.1\\allure-results",
+		"directory": "C:\\GitProjects\\TrashCatTestsGeneral\\TrashCatTestsAgnostic\\bin\\Debug\\netcoreapp3.1\\allure-results",
 		"links": [
 			"https://github.com/nunit/docs/issues?utf8=✓&q={issue}",
 			"https://example.org/{tms}",

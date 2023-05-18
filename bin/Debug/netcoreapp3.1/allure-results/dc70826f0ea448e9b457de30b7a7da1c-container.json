@@ -1,0 +1,44 @@
+{
+  "uuid": "5f9353c6-92f4-492f-a167-c9bed849032a-tc-0-1000",
+  "name": "alttrashcat_tests_csharp.tests.GamePlayTests.TestFindObjectWhichContainsWithCamera",
+  "children": [
+    "c9082a3f-1d05-4806-aa2f-a6e3b90341a1-tr-0-1017"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684396004872,
+      "stop": 1684396004872
+    }
+  ],
+  "afters": [
+    {
+      "name": "Dispose",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684396004872,
+      "stop": 1684396004872
+    }
+  ],
+  "links": [],
+  "start": 1684396003648,
+  "stop": 1684396004880
+}

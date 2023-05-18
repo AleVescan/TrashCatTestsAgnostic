@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitProjects\\New folder\\TestAlttrashCSharp\\TestAlttrashCSharp.csproj": {}
+    "C:\\GitProjects\\TrashCatTestsGeneral\\TrashCatTestsAgnostic\\TestAlttrashCSharp.csproj": {}
   },
   "projects": {
-    "C:\\GitProjects\\New folder\\TestAlttrashCSharp\\TestAlttrashCSharp.csproj": {
+    "C:\\GitProjects\\TrashCatTestsGeneral\\TrashCatTestsAgnostic\\TestAlttrashCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitProjects\\New folder\\TestAlttrashCSharp\\TestAlttrashCSharp.csproj",
+        "projectUniqueName": "C:\\GitProjects\\TrashCatTestsGeneral\\TrashCatTestsAgnostic\\TestAlttrashCSharp.csproj",
         "projectName": "TestAlttrashCSharp",
-        "projectPath": "C:\\GitProjects\\New folder\\TestAlttrashCSharp\\TestAlttrashCSharp.csproj",
+        "projectPath": "C:\\GitProjects\\TrashCatTestsGeneral\\TrashCatTestsAgnostic\\TestAlttrashCSharp.csproj",
         "packagesPath": "C:\\Users\\alexandra.vescan\\.nuget\\packages\\",
-        "outputPath": "C:\\GitProjects\\New folder\\TestAlttrashCSharp\\obj\\",
+        "outputPath": "C:\\GitProjects\\TrashCatTestsGeneral\\TrashCatTestsAgnostic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alexandra.vescan\\AppData\\Roaming\\NuGet\\NuGet.Config"

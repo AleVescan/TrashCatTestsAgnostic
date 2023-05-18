@@ -11,6 +11,8 @@ namespace alttrashcat_tests_csharp.tests
 {
     [TestFixture]
     [AllureNUnit]
+    [AllureSuite("UserJourneys")]
+
 
     public class UserJourneyTests
     {
