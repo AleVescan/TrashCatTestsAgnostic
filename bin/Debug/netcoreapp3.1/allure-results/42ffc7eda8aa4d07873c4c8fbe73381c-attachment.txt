@@ -1,3 +1,0 @@
-2023-05-03 13:29:44.0343|INFO|Info
-2023-05-03 13:29:44.0580|INFO|AltTester logs are saved at: ./AltTester.log
-Brightness is 1

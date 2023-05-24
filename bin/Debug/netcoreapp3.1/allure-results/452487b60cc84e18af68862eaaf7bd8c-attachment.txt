@@ -1,3 +1,0 @@
-Playre pref for string TestString
-Player pref for int 1
-Player pref for float 1
