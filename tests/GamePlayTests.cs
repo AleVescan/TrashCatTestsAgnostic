@@ -1,14 +1,4 @@
-using System;
-using System.Threading;
-using Altom.AltDriver;
-using alttrashcat_tests_csharp.pages;
-using NUnit.Framework;
-using Allure;
-using NUnit.Allure.Core;
-using NUnit.Allure.Attributes;
-using Allure.Commons;
-using Newtonsoft.Json;
-using System.Drawing;
+
 
 namespace alttrashcat_tests_csharp.tests
 {
@@ -175,7 +165,7 @@ namespace alttrashcat_tests_csharp.tests
             Thread.Sleep(20000);
             altDriver.WaitForObjectNotBePresent(By.NAME, "GameOver"); 
             //if this fails, at timeout of 20, it means that the object is displayed, thus exit with a timeout
-
+ 
              gamePlayPage.SetCharacterInvincible("False");
              Thread.Sleep(10000);
              Assert.True(getAnotherChancePage.IsDisplayed());
@@ -273,7 +263,7 @@ namespace alttrashcat_tests_csharp.tests
 
          [Test]
 
-         public void TestDistanceModifieddWithinGame()
+         public void TestDistanceModifiedWithinGame()
          {
             gamePlayPage.SetCharacterInvincible("True");
             Thread.Sleep(20000);

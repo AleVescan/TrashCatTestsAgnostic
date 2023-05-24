@@ -1,20 +1,12 @@
-using Altom.AltDriver;
-using alttrashcat_tests_csharp.pages;
-using System;
-using System.Threading;
-using NUnit.Framework;
-using System.Threading.Tasks;
-using NUnit.Allure.Core;
-using NUnit.Allure.Attributes;
-using Allure.Commons;
-
 
 namespace alttrashcat_tests_csharp.tests
 {
 
 
-    [TestFixture]
+     [TestFixture]
     [AllureNUnit]
+    [AllureSuite("MainMenu")]
+
     public class MainMenuTests
     {
         AltDriver altDriver;
@@ -33,7 +25,7 @@ namespace alttrashcat_tests_csharp.tests
             settingsPage = new SettingsPage(altDriver);
             storePage = new StorePage(altDriver);
             getAnotherChancePage = new GetAnotherChancePage(altDriver);
-             mainMenuPage.LoadScene();
+            mainMenuPage.LoadScene();
         }
 
      
@@ -87,7 +79,7 @@ namespace alttrashcat_tests_csharp.tests
             mainMenuPage.MovePowerUpLeft();
             mainMenuPage.PressRun();
             gamePlay.SelectInventoryIcon();
-            Assert.IsTrue(gamePlay.PowerUpIconIsDisplayed());
+            Assert.NotNull(gamePlay.PowerUpIcon);
         }
         [Test]
         [AllureSeverity(SeverityLevel.normal)]
@@ -145,7 +137,7 @@ namespace alttrashcat_tests_csharp.tests
             mainMenuPage.ChangeCharacter();
             mainMenuPage.PressRun();
             Thread.Sleep(20);
-            Assert.IsTrue(gamePlay.RacconIsDisplayed());
+            Assert.NotNull(gamePlay.RacconMesh);
          }
 
         [Test]
@@ -166,12 +158,7 @@ namespace alttrashcat_tests_csharp.tests
             mainMenuPage.ChangeAccessory();
             mainMenuPage.PressRun();
             Thread.Sleep(10);
-            Assert.IsTrue(gamePlay.ConstructionGearIsDIsplayed());
-
-        
-
-
-
+            Assert.NotNull(gamePlay.RacconConstructionGear);
 
 
          }
@@ -201,7 +188,7 @@ namespace alttrashcat_tests_csharp.tests
             mainMenuPage.ChangeTheme();
             Thread.Sleep(100);
             mainMenuPage.PressRun();
-            Assert.IsTrue(gamePlay.NightLightsAreDisplayed());
+            Assert.NotNull(gamePlay.NightLights);
 
          }
 
@@ -284,11 +271,6 @@ namespace alttrashcat_tests_csharp.tests
 
         }
 
-        [Test]
-
-     
-
-        
 
            [TearDown]
         public void Dispose()

@@ -1,5 +1,3 @@
-using Altom.AltDriver;
-using System;
 
 namespace alttrashcat_tests_csharp.pages
 {
@@ -11,31 +9,31 @@ namespace alttrashcat_tests_csharp.pages
         public AltObject PauseButton { get => Driver.WaitForObject(By.NAME, "pauseButton", timeout: 2); }
         public AltObject Character { get => Driver.WaitForObject(By.NAME, "PlayerPivot"); }
         public AltObject InventoryItem { get => Driver.WaitForObject(By.NAME, "Inventory"); }
-        public AltObject PowerUpIcon {get => Driver.WaitForObject(By.NAME, "PowerupIcon");}
-        public AltObject RacconMesh {get => Driver.WaitForObject(By.PATH, "/PlayerPivot/CharacterSlot/character(Clone)/RacoonMesh");}
-        public AltObject NightLights {get => Driver.WaitForObject(By.NAME, "LightGlows", timeout:10 );}
-        public AltObject RacconConstructionGear {get => Driver.WaitForObject(By.PATH, "/PlayerPivot/CharacterSlot/character(Clone)/ConstructionGearMesh");}
-        public AltObject CharacterSlot {get => Driver.WaitForObject(By.PATH, "/PlayerPivot/CharacterSlot");}
-        public AltObject RunnerMultipler {get => Driver.WaitForObject(By.PATH, "/UICamera/Game/WholeUI/ScoreZone/ScoreLabel/ScoreText/MultiplierText");}
-        public AltObject CharacterFoundByWhichContainsWithCamera { get => Driver.FindObjectWhichContains(By.NAME, "Character", By.NAME,  "UICamera" );}
-    
-      // The following classes are used in order to replace the keystrokes that are not recongized on devices
+        public AltObject PowerUpIcon { get => Driver.WaitForObject(By.NAME, "PowerupIcon"); }
+        public AltObject RacconMesh { get => Driver.WaitForObject(By.PATH, "/PlayerPivot/CharacterSlot/character(Clone)/RacoonMesh"); }
+        public AltObject NightLights { get => Driver.WaitForObject(By.NAME, "LightGlows", timeout: 10); }
+        public AltObject RacconConstructionGear { get => Driver.WaitForObject(By.PATH, "/PlayerPivot/CharacterSlot/character(Clone)/ConstructionGearMesh"); }
+        public AltObject CharacterSlot { get => Driver.WaitForObject(By.PATH, "/PlayerPivot/CharacterSlot"); }
+        public AltObject RunnerMultipler { get => Driver.WaitForObject(By.PATH, "/UICamera/Game/WholeUI/ScoreZone/ScoreLabel/ScoreText/MultiplierText"); }
+        public AltObject CharacterFoundByWhichContainsWithCamera { get => Driver.FindObjectWhichContains(By.NAME, "Character", By.NAME, "UICamera"); }
 
-       public void Jump(AltObject character)
-            {
-                character.CallComponentMethod<string>("CharacterInputController", "Jump", "Assembly-CSharp", new object[]{});
-            }
+        // The following classes are used in order to replace the keystrokes that are not recongized on devices
+
+        public void Jump(AltObject character)
+        {
+            character.CallComponentMethod<string>("CharacterInputController", "Jump", "Assembly-CSharp", new object[] { });
+        }
         public void Slide(AltObject character)
-            {
-                character.CallComponentMethod<string>("CharacterInputController", "Slide", "Assembly-CSharp", new object[]{});
-            }        
+        {
+            character.CallComponentMethod<string>("CharacterInputController", "Slide", "Assembly-CSharp", new object[] { });
+        }
         public void MoveRight(AltObject character)
-        { 
-            character.CallComponentMethod<string>("CharacterInputController", "ChangeLane", "Assembly-CSharp", new string[]{"1"});
+        {
+            character.CallComponentMethod<string>("CharacterInputController", "ChangeLane", "Assembly-CSharp", new string[] { "1" });
         }
         public void MoveLeft(AltObject character)
-        { 
-            character.CallComponentMethod<string>("CharacterInputController", "ChangeLane", "Assembly-CSharp", new string[]{"-1"});
+        {
+            character.CallComponentMethod<string>("CharacterInputController", "ChangeLane", "Assembly-CSharp", new string[] { "-1" });
         }
 
         // end of clasesses used to replace keystrokes 
@@ -49,54 +47,10 @@ namespace alttrashcat_tests_csharp.pages
             }
             return false;
         }
-
-        public bool InventoryItemIsDisplayed()
-        {
-            if (InventoryItem !=null)
-            {
-                return true;
-            }
-            return false;
-        }
         public void SelectInventoryIcon()
         {
             InventoryItem.Tap();
         }
-
-        public bool PowerUpIconIsDisplayed()
-        {
-             if (PowerUpIcon !=null)
-            {
-                return true;
-            }
-            return false;
-        }
-
-        public bool RacconIsDisplayed()
-        {
-            if (RacconMesh !=null)
-            {
-                return true;
-            }
-            return false;
-
-        }
-         public bool NightLightsAreDisplayed()
-       {
-        if (NightLights != null)
-            return true;
-        else
-            return false;
-       }
-
-       public bool ConstructionGearIsDIsplayed()
-       {
-        if (RacconConstructionGear != null)
-            return true;
-        else
-            return false;
-       }
-
         public void PressPause()
         {
             PauseButton.Tap();
@@ -110,16 +64,16 @@ namespace alttrashcat_tests_csharp.pages
         public void SetCharacterInvincible(string state)
         //state can be "True"or"False"
         {
-            string[] parameters = new[] {state};
-            CharacterSlot.CallComponentMethod<string>("CharacterCollider", "SetInvincibleExplicit", "Assembly-CSharp", parameters) ;
+            string[] parameters = new[] { state };
+            CharacterSlot.CallComponentMethod<string>("CharacterCollider", "SetInvincibleExplicit", "Assembly-CSharp", parameters);
         }
 
         public void SetRunnerMultiplier()
         {
-            
-           // RunnerMultipler.SetText("x10");
-      
-            RunnerMultipler.SetComponentProperty("UnityEngine.UI.Text", "text", "x 10", "UnityEngine.UI" );
+
+            // RunnerMultipler.SetText("x10");
+
+            RunnerMultipler.SetComponentProperty("UnityEngine.UI.Text", "text", "x 10", "UnityEngine.UI");
 
         }
 
@@ -127,8 +81,6 @@ namespace alttrashcat_tests_csharp.pages
         // {
         //     var propertyBoxColliderEnabled =  Driver.WaitForComponentProperty<string>( "UnityEngine.BoxCollider" , "enabled", <string> "True", "UnityEngine.PhysicsModule");
         // }
-
-      
         public void AvoidObstacles(int numberOfObstacles)
         {
             var character = Character;
@@ -158,8 +110,8 @@ namespace alttrashcat_tests_csharp.pages
                 if (obstacle.name.Contains("ObstacleLowBarrier") || obstacle.name.Contains("Rat"))
                 {
 
-                   // Driver.PressKey(AltKeyCode.UpArrow, 0, 0);
-                   Jump(character);
+                    // Driver.PressKey(AltKeyCode.UpArrow, 0, 0);
+                    Jump(character);
                 }
                 else
                 {
@@ -216,8 +168,8 @@ namespace alttrashcat_tests_csharp.pages
                 }
                 if (movedRight)
                 {
-                   // Driver.PressKey(AltKeyCode.LeftArrow, 0, 0);
-                   MoveLeft(character);
+                    // Driver.PressKey(AltKeyCode.LeftArrow, 0, 0);
+                    MoveLeft(character);
                     movedRight = false;
                 }
                 if (movedLeft)
@@ -227,7 +179,7 @@ namespace alttrashcat_tests_csharp.pages
                     movedRight = false;
                 }
             }
-            character.CallComponentMethod<string>("CharacterInputController", "CheatInvincible",  "Assembly-CSharp", new string[]{"false"});
+          //  character.CallComponentMethod<string>("CharacterInputController", "CheatInvincible", "Assembly-CSharp", new string[] { "false" });
 
         }
     }

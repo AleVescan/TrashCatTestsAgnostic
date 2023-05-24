@@ -1,11 +1,4 @@
-using System;
-using System.Threading;
-using Altom.AltDriver;
-using alttrashcat_tests_csharp.pages;
-using NUnit.Allure.Core;
-using NUnit.Framework;
-using Allure.Commons;
-using NUnit.Allure.Attributes;
+
 
 namespace alttrashcat_tests_csharp.tests
 {
@@ -119,11 +112,11 @@ namespace alttrashcat_tests_csharp.tests
             Thread.Sleep(100);
             //verify bought items are available in game
             mainMenuPage.PressRun();
-            Assert.IsTrue(gamePlay.InventoryItemIsDisplayed());
+            Assert.NotNull(gamePlay.InventoryItem);
 
-            Assert.IsTrue(gamePlay.NightLightsAreDisplayed());
+            Assert.NotNull(gamePlay.NightLights);
             gamePlay.SelectInventoryIcon();
-            Assert.IsTrue(gamePlay.PowerUpIconIsDisplayed());
+            Assert.NotNull(gamePlay.PowerUpIcon);
 
          });
         }

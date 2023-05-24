@@ -1,5 +1,5 @@
-using Altom.AltDriver;
-using Newtonsoft.Json;
+
+
 
 namespace alttrashcat_tests_csharp.pages
 {
@@ -62,7 +62,6 @@ namespace alttrashcat_tests_csharp.pages
             return PremiumButtonStateColorRGB; 
         }
 
-        
 
     }
 }

@@ -1,16 +1,10 @@
-using Altom.AltDriver;
-using alttrashcat_tests_csharp.pages;
-using System;
-using System.Threading;
-using NUnit.Framework;
-using NUnit.Allure.Core;
-using NUnit.Allure.Attributes;
-using Allure.Commons;
 
 namespace alttrashcat_tests_csharp.tests
 {
     [TestFixture]
     [AllureNUnit]
+    [AllureSuite("StartPage")]
+
     public class StartPageTests
     {
         private AltDriver altDriver;
