@@ -1,9 +1,6 @@
-
 namespace alttrashcat_tests_csharp.tests
 {
-
-
-     [TestFixture]
+    [TestFixture]
     [AllureNUnit]
     [AllureSuite("MainMenu")]
 
@@ -21,14 +18,14 @@ namespace alttrashcat_tests_csharp.tests
         {
             altDriver = new AltDriver(port: 13000);
             mainMenuPage = new MainMenuPage(altDriver);
-            gamePlay= new GamePlay(altDriver);
+            gamePlay = new GamePlay(altDriver);
             settingsPage = new SettingsPage(altDriver);
             storePage = new StorePage(altDriver);
             getAnotherChancePage = new GetAnotherChancePage(altDriver);
             mainMenuPage.LoadScene();
         }
 
-     
+
         [Test]
         [AllureSeverity(SeverityLevel.critical)]
         [AllureOwner("AleV")]
@@ -37,6 +34,8 @@ namespace alttrashcat_tests_csharp.tests
         {
             Assert.True(mainMenuPage.IsDisplayed());
         }
+
+        //THis is needed so I can use settings page.DeleteData ... but I`m not sure why I need this ?
 
         public SettingsPage GetSettingsPage()
         {
@@ -48,7 +47,7 @@ namespace alttrashcat_tests_csharp.tests
         [AllureOwner("AleV")]
         [AllureDescription("Resets the game data")]
         public void TestDeleteData()
-        
+
         {
             mainMenuPage.LoadScene();
             settingsPage.DeleteData();
@@ -65,14 +64,15 @@ namespace alttrashcat_tests_csharp.tests
             mainMenuPage.LoadScene();
             mainMenuPage.PressStore();
             bool buttonState = storePage.BuyButtonsAreEnabled();
-            if(buttonState == true)
+            if (buttonState == true)
                 storePage.BuyMagnet();
             else
-                {storePage.PressStore();
-                 storePage.PressCharactersTab();
-                 storePage.ReloadItems();
-                 storePage.BuyMagnet();
-                }
+            {
+                storePage.PressStoreToAddCoins();
+                storePage.PressCharactersTab();
+                storePage.ReloadItems();
+                storePage.BuyMagnet();
+            }
 
             storePage.CloseStore();
 
@@ -85,52 +85,53 @@ namespace alttrashcat_tests_csharp.tests
         [AllureSeverity(SeverityLevel.normal)]
         [AllureOwner("AleV")]
         [AllureDescription("Test that the player can buy a life power-up and use it in gameplay")]
-         public void TestThatLifePowerUpAddsALife()
-         {
+        public void TestThatLifePowerUpAddsALife()
+        {
             mainMenuPage.LoadScene();
             mainMenuPage.PressStore();
             bool buttonState = storePage.BuyButtonsAreEnabled();
-            if(buttonState == true)
+            if (buttonState == true)
                 storePage.BuyLife();
             else
-                {storePage.PressStore();
-                 storePage.PressCharactersTab();
-                 storePage.ReloadItems();
-                 storePage.BuyLife();
-                }
+            {
+                storePage.PressStoreToAddCoins();
+                storePage.PressCharactersTab();
+                storePage.ReloadItems();
+                storePage.BuyLife();
+            }
             storePage.CloseStore();
             mainMenuPage.MovePowerUpLeft();
             mainMenuPage.PressRun();
 
             while (gamePlay.GetCurrentLife() > 1)
-                {Thread.Sleep(5);}
-            gamePlay.SelectInventoryIcon();       
+            { Thread.Sleep(5); }
+            gamePlay.SelectInventoryIcon();
             Assert.AreEqual(gamePlay.GetCurrentLife(), 2);
- 
-         }
 
-         [Test]
+        }
 
-         public void TestLeaderBoardNameHighScoreChanges()
-         {
+        [Test]
+
+        public void TestLeaderBoardNameHighScoreChanges()
+        {
             mainMenuPage.LoadScene();
             mainMenuPage.SelectLeaderBoard();
             mainMenuPage.SetHighScoreName();
             Assert.AreEqual(mainMenuPage.LeaderboardHighScoreName.GetText(), "HighScore");
-            
-         }
+
+        }
 
         [Test]
         [AllureSeverity(SeverityLevel.normal)]
         [AllureOwner("AleV")]
         [AllureDescription("The player can buy and use the raccoon character")]
 
-         public void TestTheUserCanPlayWithRaccoon()
-         {
+        public void TestTheUserCanPlayWithRaccoon()
+        {
             mainMenuPage.LoadScene();
             settingsPage.DeleteData();
             mainMenuPage.PressStore();
-            storePage.PressStore();
+            storePage.PressStoreToAddCoins();
             storePage.PressCharactersTab();
             storePage.BuyRubbishRaccon();
             storePage.CloseStore();
@@ -138,61 +139,63 @@ namespace alttrashcat_tests_csharp.tests
             mainMenuPage.PressRun();
             Thread.Sleep(20);
             Assert.NotNull(gamePlay.RacconMesh);
-         }
+        }
 
         [Test]
         [AllureSeverity(SeverityLevel.minor)]
         [AllureOwner("AleV")]
         [AllureDescription("The player can buy and accesorise the character")]
-         public void TestThatTheCharacterCanWearAccessories()
-         {
+        public void TestThatTheCharacterCanWearAccessories()
+        {
 
             mainMenuPage.LoadScene();
             settingsPage.DeleteData();
             mainMenuPage.PressStore();
-            storePage.PressStore();
+            storePage.PressStoreToAddCoins();
             storePage.PressAccessoriesTab();
             storePage.BuyAccessoryItems();
             storePage.CloseStore();
-           // mainMenuPage.ChangeCharacter();
+            // mainMenuPage.ChangeCharacter();
             mainMenuPage.ChangeAccessory();
             mainMenuPage.PressRun();
             Thread.Sleep(10);
             Assert.NotNull(gamePlay.RacconConstructionGear);
 
 
-         }
+        }
 
         [Test]
         [AllureSeverity(SeverityLevel.minor)]
         [AllureOwner("AleV")]
         [AllureDescription("The player can change the theme of the game")]
-         public void TestNightTimeThemeisApplied()
-         {
+        public void TestNightTimeThemeisApplied()
+        {
             mainMenuPage.LoadScene();
             mainMenuPage.PressStore();
             bool buttonState = storePage.BuyButtonsAreEnabled();
-            if(buttonState == true)
-                {
+            if (buttonState == true)
+            {
                 storePage.OpenThemes();
                 storePage.BuyNightTheme();
-                }
+            }
             else
-                {storePage.PressStore();
+            {
+                storePage.PressStoreToAddCoins();
                 storePage.OpenThemes();
                 storePage.BuyNightTheme();
-                }
-         
+            }
+
             storePage.CloseStore();
             Thread.Sleep(100);
+            Assert.NotNull(mainMenuPage.ThemeSelectorRight);
             mainMenuPage.ChangeTheme();
             Thread.Sleep(100);
             mainMenuPage.PressRun();
             Assert.NotNull(gamePlay.NightLights);
 
-         }
+        }
 
-        
+
 
         [TestCase("MasterSlider")]
         [TestCase("MusicSlider")]
@@ -200,29 +203,29 @@ namespace alttrashcat_tests_csharp.tests
         [AllureSeverity(SeverityLevel.normal)]
         [AllureOwner("AleV")]
         [AllureDescription("The player can modify the sound settings")]
-         public void SliderValuesChangeAsExpected(string sliderName)
-         {
+        public void SliderValuesChangeAsExpected(string sliderName)
+        {
             //SliderName can be one of the three values : Master, Music,SFX
             mainMenuPage.LoadScene();
             mainMenuPage.PressSettings();
-            settingsPage.MoveSliderToStart(sliderName);
+            settingsPage.MoveSlider(sliderName, -1000); //moves slider to start
 
-           float initialSliderValue= settingsPage.GetSliderValue(sliderName);
+            float initialSliderValue = settingsPage.GetSliderValue(sliderName);
             //slide handle
-            settingsPage.MoveSlider(sliderName);
+            settingsPage.MoveSlider(sliderName, 20);
 
             float finalSliderValue = settingsPage.GetSliderValue(sliderName);
 
 
-            Console.WriteLine ("intial value is " + initialSliderValue);
-           Assert.AreNotSame(initialSliderValue, finalSliderValue);
+            Console.WriteLine("intial value is " + initialSliderValue);
+            Assert.AreNotSame(initialSliderValue, finalSliderValue);
         }
         [Test]
         public void TestGetParent()
-        { 
+        {
             mainMenuPage.LoadScene();
             Thread.Sleep(100);
-            var altObject = altDriver.FindObject( By.NAME, "ThemeZone", By.NAME, "UICamera");
+            var altObject = altDriver.FindObject(By.NAME, "ThemeZone", By.NAME, "UICamera");
             var altObjectParent = altObject.GetParent();
             Assert.AreEqual("Loadout", altObjectParent.name);
         }
@@ -231,13 +234,16 @@ namespace alttrashcat_tests_csharp.tests
 
         public void TestGetAppScreenSize()
         {
+            int resolutionX = 375;
+            int resolutionY = 667;
+
             mainMenuPage.LoadScene();
             altDriver.CallStaticMethod<string>("UnityEngine.Screen", "SetResolution", "UnityEngine.CoreModule", new string[] { "375", "667", "true" }, new string[] { "System.Int32", "System.Int32", "System.Boolean" });
             var screensize = altDriver.GetApplicationScreenSize();
             Console.WriteLine("screensize resolution X " + screensize.x + " screensize resolution Y " + screensize.y);
-            Assert.AreEqual(screensize.x, 375);
-            Assert.AreEqual(screensize.y, 667);
-            
+            Assert.AreEqual(screensize.x, resolutionX);
+            Assert.AreEqual(screensize.y, resolutionY);
+
         }
 
         // [Test] This fails due to SetStaticPropertyIssue 
@@ -257,31 +263,25 @@ namespace alttrashcat_tests_csharp.tests
         // }
 
         [Test]
-
         public void TestGetTimeScaleinGame()
         {
-             var timeScaleFromGame = altDriver.GetTimeScale();
-             //Console.WriteLine ("timescale is " + timeScaleFromGame);
-             altDriver.SetTimeScale(0.1f);
-             mainMenuPage.PressRun();
-             Thread.Sleep(1000);
-             Assert.AreEqual(0.1f,altDriver.GetTimeScale() );
+            var timeScaleFromGame = altDriver.GetTimeScale();
+            //Console.WriteLine ("timescale is " + timeScaleFromGame);
+            altDriver.SetTimeScale(0.1f);
+            mainMenuPage.PressRun();
             Thread.Sleep(1000);
-             altDriver.SetTimeScale(1);
-
+            Assert.Multiple(() =>
+            {
+                Assert.AreEqual(0.1f, altDriver.GetTimeScale());
+                Thread.Sleep(1000);
+                altDriver.SetTimeScale(1);
+            });
         }
-
-
-           [TearDown]
+        [TearDown]
         public void Dispose()
         {
             altDriver.Stop();
             Thread.Sleep(1000);
         }
-
-
-
-
-
     }
 }

@@ -7,15 +7,10 @@ namespace alttrashcat_tests_csharp.tests
 
     public class StoreMenuTests
     {
-        
-  
         AltDriver altDriver;
         StorePage storePage;
-
         MainMenuPage mainMenuPage;
-
         SettingsPage settingsPage;
-
         [SetUp]
         public void Setup()
         {
@@ -25,9 +20,6 @@ namespace alttrashcat_tests_csharp.tests
             mainMenuPage = new MainMenuPage(altDriver);
             settingsPage = new SettingsPage(altDriver);
         }
-
-       
-
         [Test]
         [AllureSeverity(SeverityLevel.critical)]
         [AllureOwner("AleV")]
@@ -45,12 +37,12 @@ namespace alttrashcat_tests_csharp.tests
         {
             string initialPremiumCoinsValue = storePage.PremiumCounter.GetText(); 
             string initialCoinsValue = storePage.CoinsCounter.GetText();
-            storePage.PressStore();
+            storePage.PressStoreToAddCoins();
             string updatedPremiumCoinsValue = storePage.PremiumCounter.GetText();  
             string updatedCoinsValue = storePage.CoinsCounter.GetText();
 
-            Assert.AreNotEqual(initialCoinsValue, updatedCoinsValue);
-            Assert.AreNotEqual(initialPremiumCoinsValue, updatedPremiumCoinsValue);
+            Assert.Less(initialCoinsValue, updatedCoinsValue);
+            Assert.Less(initialPremiumCoinsValue, updatedPremiumCoinsValue);
         }
 
         [Test]
@@ -63,7 +55,7 @@ namespace alttrashcat_tests_csharp.tests
            settingsPage.DeleteData();
            mainMenuPage.PressStore();          
            Assert.IsFalse(storePage.BuyButtonsAreEnabled());
-           storePage.PressStore(); 
+           storePage.PressStoreToAddCoins(); 
            Thread.Sleep(1000);
            storePage.PressCharactersTab();
            storePage.ReloadItems();

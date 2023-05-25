@@ -1,4 +1,3 @@
-
 namespace alttrashcat_tests_csharp.pages
 {
     public class GamePlay : BasePage
@@ -18,7 +17,6 @@ namespace alttrashcat_tests_csharp.pages
         public AltObject CharacterFoundByWhichContainsWithCamera { get => Driver.FindObjectWhichContains(By.NAME, "Character", By.NAME, "UICamera"); }
 
         // The following classes are used in order to replace the keystrokes that are not recongized on devices
-
         public void Jump(AltObject character)
         {
             character.CallComponentMethod<string>("CharacterInputController", "Jump", "Assembly-CSharp", new object[] { });
@@ -35,10 +33,7 @@ namespace alttrashcat_tests_csharp.pages
         {
             character.CallComponentMethod<string>("CharacterInputController", "ChangeLane", "Assembly-CSharp", new string[] { "-1" });
         }
-
         // end of clasesses used to replace keystrokes 
-
-
         public bool IsDisplayed()
         {
             if (PauseButton != null && Character != null)
@@ -59,28 +54,17 @@ namespace alttrashcat_tests_csharp.pages
         {
             return Character.GetComponentProperty<int>("CharacterInputController", "currentLife", "Assembly-CSharp");
         }
-
-
         public void SetCharacterInvincible(string state)
         //state can be "True"or"False"
         {
             string[] parameters = new[] { state };
             CharacterSlot.CallComponentMethod<string>("CharacterCollider", "SetInvincibleExplicit", "Assembly-CSharp", parameters);
         }
-
+        //Summary - This method is not used because of an issue with SetText/SetComponent Property on some objects
         public void SetRunnerMultiplier()
         {
-
-            // RunnerMultipler.SetText("x10");
-
             RunnerMultipler.SetComponentProperty("UnityEngine.UI.Text", "text", "x 10", "UnityEngine.UI");
-
         }
-
-        // public void WaitForComponentPropertyBoxColliderEnabled()
-        // {
-        //     var propertyBoxColliderEnabled =  Driver.WaitForComponentProperty<string>( "UnityEngine.BoxCollider" , "enabled", <string> "True", "UnityEngine.PhysicsModule");
-        // }
         public void AvoidObstacles(int numberOfObstacles)
         {
             var character = Character;
@@ -179,8 +163,6 @@ namespace alttrashcat_tests_csharp.pages
                     movedRight = false;
                 }
             }
-          //  character.CallComponentMethod<string>("CharacterInputController", "CheatInvincible", "Assembly-CSharp", new string[] { "false" });
-
         }
     }
 }

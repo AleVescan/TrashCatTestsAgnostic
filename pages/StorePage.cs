@@ -102,7 +102,7 @@ namespace alttrashcat_tests_csharp.pages
                 return true;
             return false;
         }
-        public void PressStore()
+        public void PressStoreToAddCoins()
         {
             StoreTitle.Tap();
         }

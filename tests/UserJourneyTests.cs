@@ -94,7 +94,7 @@ namespace alttrashcat_tests_csharp.tests
            mainMenuPage.PressStore();
            // verify if buttons are disabled when no money
            Assert.IsFalse(storePage.BuyButtonsAreEnabled());
-           storePage.PressStore(); 
+           storePage.PressStoreToAddCoins(); 
            Thread.Sleep(1000);
            storePage.PressCharactersTab();
            storePage.ReloadItems();
@@ -108,6 +108,7 @@ namespace alttrashcat_tests_csharp.tests
             storePage.BuyNightTheme();
             storePage.CloseStore();
             mainMenuPage.MovePowerUpLeft();
+            Assert.NotNull(mainMenuPage.ThemeSelectorRight);
             mainMenuPage.ChangeTheme();
             Thread.Sleep(100);
             //verify bought items are available in game
@@ -132,7 +133,7 @@ namespace alttrashcat_tests_csharp.tests
            mainMenuPage.PressStore();
            // verify if buttons are disabled when no money
            Assert.IsFalse(storePage.BuyButtonsAreEnabled());
-           storePage.PressStore(); 
+           storePage.PressStoreToAddCoins(); 
            Thread.Sleep(1000);
            storePage.PressCharactersTab();
            storePage.ReloadItems();

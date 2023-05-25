@@ -1,6 +1,3 @@
-
-
-
 namespace alttrashcat_tests_csharp.pages
 {
     public class GetAnotherChancePage : BasePage

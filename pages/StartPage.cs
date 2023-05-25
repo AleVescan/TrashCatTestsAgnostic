@@ -1,5 +1,3 @@
-
-
 namespace alttrashcat_tests_csharp.pages
 {
     public class StartPage : BasePage
@@ -7,7 +5,6 @@ namespace alttrashcat_tests_csharp.pages
         public StartPage(AltDriver driver) : base(driver)
         {
         }
-
         public void Load()
         {
             Driver.LoadScene("Start");
