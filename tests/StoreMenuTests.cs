@@ -54,14 +54,14 @@ namespace alttrashcat_tests_csharp.tests
            mainMenuPage.LoadScene();
            settingsPage.DeleteData();
            mainMenuPage.PressStore();          
-           Assert.IsFalse(storePage.BuyButtonsAreEnabled());
+           Assert.IsFalse(storePage.BuyButtonsState());
            storePage.PressStoreToAddCoins(); 
            Thread.Sleep(1000);
            storePage.PressCharactersTab();
            storePage.ReloadItems();
            Thread.Sleep(1000);
         
-           Assert.IsTrue(storePage.BuyButtonsAreEnabled());
+           Assert.IsTrue(storePage.BuyButtonsState());
         }
 
         [Test]
@@ -70,13 +70,11 @@ namespace alttrashcat_tests_csharp.tests
             mainMenuPage.LoadScene();
             settingsPage.DeleteData();
             mainMenuPage.PressStore();
-            Assert.IsFalse(storePage.BuyButtonsAreEnabled());
+            Assert.IsFalse(storePage.BuyButtonsState());
             Thread.Sleep(1000);
-            storePage.EnableMagnetBuyButton();
+            storePage.EnableButtonObject(storePage.FirstBuyButtonInTab);
             Thread.Sleep(1000);
-            Assert.IsTrue(storePage.BuyMagnetButtonIsEnabled());
-        
-
+            Assert.IsTrue(storePage.EnableButtonObject(storePage.FirstBuyButtonInTab));
         }
 
         [Test]
@@ -86,8 +84,6 @@ namespace alttrashcat_tests_csharp.tests
             mainMenuPage.LoadScene();
             mainMenuPage.PressStore();
             Assert.AreEqual(storePage.PremiumButtonAtCoordinates.GetText(), "+");
-
-
         }
 
         [Test]

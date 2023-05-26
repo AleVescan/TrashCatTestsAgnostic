@@ -25,66 +25,57 @@ namespace alttrashcat_tests_csharp.pages
         public AltObject CoinImage { get => Driver.WaitForObject(By.PATH,"/Canvas/Background/Coin/Image");}
         public AltObject PremiumCoinImage { get => Driver.WaitForObject(By.PATH,"/Canvas/Background/Premium/Image");}
 
-        public string componentName = "UnityEngine.UI.Button"; 
-        public string assemblyName = "UnityEngine.UI";
-        public string propertyName = "interactable";
+        // public string componentName = "UnityEngine.UI.Button"; 
+        // public string assemblyName = "UnityEngine.UI";
+        // public string propertyName = "interactable";
 
        // public List<> allBuyButtons = new List<>(Driver.FindObjectsWhichContain(By.NAME, "BuyButton"));
         public List<AltObject> allBuyButtons { get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton");}
-        public AltObject BuyMagnetButton {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[0] ;}
-        public AltObject BuyMultiplierButton {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[1] ;}
-        public AltObject BuyInvincibleButton {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[2] ;}
-        public AltObject BuyLifeButton {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[3] ;}
-        public AltObject BuyNightimeButton { get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[1];}
+        public AltObject FirstBuyButtonInTab {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[0] ;}
+        public AltObject SecondBuyButtonInTab {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[1] ;}
+        public AltObject ThirdBuyButtonInTab {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[2] ;}
+        public AltObject FourthBuyButtonInTab {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[3] ;}
+        //public AltObject BuyNightimeButton { get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[1];}
         public AltObject PremiumCounter {get => Driver.WaitForObject(By.PATH,"/Canvas/Background/Premium/PremiumCounter");}
         public string PremiumCoinsValue { get =>PremiumCounter.GetText(); }
         public AltObject CoinsCounter {get => Driver.WaitForObject(By.PATH,"/Canvas/Background/Coin/CoinsCounter");}
         public string CoinsCounterValue { get =>CoinsCounter.GetText(); }
-        public AltObject BuyRaccoon {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[1] ;}
-
-        public AltObject BuySafetyButton {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[0] ;}
-        public AltObject BuyPartyHatButton {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[1] ;}
-        public AltObject BuySmartHatButton {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[2] ;}
-        public AltObject BuyRacoonSafetyButton {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[3] ;}
+       // public AltObject BuyRaccoon {get => Driver.FindObjectsWhichContain(By.NAME, "BuyButton")[1] ;}
         public AltObject SardineImage {get => Driver.FindObject(By.PATH, "/Canvas/Background/Premium/Image");}
-        public AltObject PremiumButtonAtCoordinates {get=> Driver.FindObjectAtCoordinates(new AltVector2(SardineImage.x - 46, SardineImage.y));}
-        public AltObject EventSystemStore {get => Driver.FindObject(By.NAME, "EventSystem");}
-
-       
-
-        public bool BuyButtonsAreEnabled()
+       public AltObject PremiumButtonAtCoordinates {get=> Driver.FindObjectAtCoordinates(new AltVector2(SardineImage.x - 46, SardineImage.y));}
+        public bool EnableButtonObject(AltObject button)
         {
+            button.SetComponentProperty("UnityEngine.UI.Button", "interactable", "True", "UnityEngine.UI");
+            return button.GetComponentProperty<bool>("UnityEngine.UI.Button", "interactable","UnityEngine.UI");
+        }
+
+        public bool ButtonObjectState(AltObject button)
+        {
+            return button.GetComponentProperty<bool>("UnityEngine.UI.Button", "interactable","UnityEngine.UI");
+        }
         
-            var BuyMagnetEnabled = BuyMagnetButton.GetComponentProperty<string>(componentName, propertyName, assemblyName);
-            var BuyMultiplierEnabled = BuyMultiplierButton.GetComponentProperty<string>(componentName, propertyName, assemblyName);
-            var BuyInvincibleEnabled = BuyInvincibleButton.GetComponentProperty<string>(componentName, propertyName, assemblyName);
-            var BuyLifeEnabled = BuyLifeButton.GetComponentProperty<string>(componentName, propertyName, assemblyName);
-           
+        public bool BuyButtonsState()
+        {
+            bool BuyMagnetState = ButtonObjectState(FirstBuyButtonInTab); 
+            bool BuyMultiplierState = ButtonObjectState (SecondBuyButtonInTab);
+            bool BuyInvincibleState = ButtonObjectState(ThirdBuyButtonInTab);
+            bool BuyLifeState = ButtonObjectState(FourthBuyButtonInTab);
         
-            if (BuyMagnetEnabled == "true" && BuyInvincibleEnabled=="true" && BuyMultiplierEnabled=="true" && BuyLifeEnabled=="true")
+            if (BuyMagnetState  && BuyInvincibleState  && BuyMultiplierState && BuyLifeState )
                 return true;
             else 
                 return false; 
 
         }
 
-        public bool BuyMagnetButtonIsEnabled()
-        {
-            var BuyMagnetEnabled = BuyMagnetButton.GetComponentProperty<string>(componentName, propertyName, assemblyName);
-             if (BuyMagnetEnabled == "true")
-             return true;
-            else 
-                return false; 
-        }
-
         public void BuyMagnet()
         {
-            BuyMagnetButton.Tap();
+            FirstBuyButtonInTab.Tap();
         }
 
         public void BuyLife()
         {
-            BuyLifeButton.Tap();
+            FourthBuyButtonInTab.Tap();
         }
          public bool StoreIsDisplayed()
         {
@@ -117,7 +108,7 @@ namespace alttrashcat_tests_csharp.pages
         public void BuyRubbishRaccon()
         {
             CharactersTab.Tap();
-            BuyRaccoon.Tap();
+            SecondBuyButtonInTab.Tap();
         }
         public void CloseStore()
         {
@@ -125,26 +116,21 @@ namespace alttrashcat_tests_csharp.pages
         }
         public void BuyNightTheme()
         {
-            BuyNightimeButton.Tap();
+            SecondBuyButtonInTab.Tap();
         }
-
         public void PressAccessoriesTab()
         {
             AccessoriesTab.Tap();
         }
         public void BuyAccessoryItems()
         {
-           BuySafetyButton.Tap();
-           BuyPartyHatButton.Tap();
-           BuySmartHatButton.Tap();
-           BuyRacoonSafetyButton.Tap();
+           FirstBuyButtonInTab.Tap();
+           SecondBuyButtonInTab.Tap();
+           ThirdBuyButtonInTab.Tap();
+           FourthBuyButtonInTab.Tap();
             
         }
 
-        public void EnableMagnetBuyButton()
-        {
-            BuyMagnetButton.SetComponentProperty("UnityEngine.UI.Button", "interactable", "True", "UnityEngine.UI");
-        }
 
         public void CharactersTabPointerEnterExitStateColors()
         {
@@ -163,11 +149,11 @@ namespace alttrashcat_tests_csharp.pages
 
         }
 
-         public bool IsPointerOnObject()
-       {
-        bool data = Driver.CallStaticMethod<bool>("UnityEngine.EventSystems.StandaloneInputModule", "IsPointerOverGameObject", "UnityEngine.UI", new object[] { });
-        return data;
-       }
+    //      public bool IsPointerOnObject()
+    //    {
+    //     bool data = Driver.CallStaticMethod<bool>("UnityEngine.EventSystems.StandaloneInputModule", "IsPointerOverGameObject", "UnityEngine.UI", new object[] { });
+    //     return data;
+    //    }
 
 
 

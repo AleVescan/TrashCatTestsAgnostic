@@ -63,7 +63,7 @@ namespace alttrashcat_tests_csharp.tests
         {
             mainMenuPage.LoadScene();
             mainMenuPage.PressStore();
-            bool buttonState = storePage.BuyButtonsAreEnabled();
+            bool buttonState = storePage.ButtonObjectState(storePage.FirstBuyButtonInTab);
             if (buttonState == true)
                 storePage.BuyMagnet();
             else
@@ -89,7 +89,7 @@ namespace alttrashcat_tests_csharp.tests
         {
             mainMenuPage.LoadScene();
             mainMenuPage.PressStore();
-            bool buttonState = storePage.BuyButtonsAreEnabled();
+            bool buttonState = storePage.BuyButtonsState();
             if (buttonState == true)
                 storePage.BuyLife();
             else
@@ -172,7 +172,7 @@ namespace alttrashcat_tests_csharp.tests
         {
             mainMenuPage.LoadScene();
             mainMenuPage.PressStore();
-            bool buttonState = storePage.BuyButtonsAreEnabled();
+            bool buttonState = storePage.BuyButtonsState();
             if (buttonState == true)
             {
                 storePage.OpenThemes();

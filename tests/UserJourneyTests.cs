@@ -47,7 +47,7 @@ namespace alttrashcat_tests_csharp.tests
              Assert.Multiple(() =>
         {
            //User opens the game
-            mainMenuPage.LoadScene();
+           // mainMenuPage.LoadScene();
             mainMenuPage.PressRun();
             Assert.True(gamePlay.IsDisplayed());
             gamePlay.AvoidObstacles(5);
@@ -74,6 +74,7 @@ namespace alttrashcat_tests_csharp.tests
             getAnotherChancePage.PressGameOver();
             Assert.True(gameOverScreen.IsDisplayed());
             });
+             mainMenuPage.LoadScene();
          }
 
 
@@ -89,18 +90,18 @@ namespace alttrashcat_tests_csharp.tests
         {
 
             //delete current game data
-          // mainMenuPage.LoadScene();
+           mainMenuPage.LoadScene();
            settingsPage.DeleteData();
            mainMenuPage.PressStore();
            // verify if buttons are disabled when no money
-           Assert.IsFalse(storePage.BuyButtonsAreEnabled());
+           Assert.IsFalse(storePage.BuyButtonsState());
            storePage.PressStoreToAddCoins(); 
            Thread.Sleep(1000);
            storePage.PressCharactersTab();
            storePage.ReloadItems();
            Thread.Sleep(1000); 
            //get coins by pressing Store and verify buttons get enabled 
-           Assert.IsTrue(storePage.BuyButtonsAreEnabled());
+           Assert.IsTrue(storePage.BuyButtonsState());
 
            //buy magnet and night theme
            storePage.BuyMagnet();
@@ -118,6 +119,7 @@ namespace alttrashcat_tests_csharp.tests
             Assert.NotNull(gamePlay.NightLights);
             gamePlay.SelectInventoryIcon();
             Assert.NotNull(gamePlay.PowerUpIcon);
+             mainMenuPage.LoadScene();
 
          });
         }
@@ -132,14 +134,14 @@ namespace alttrashcat_tests_csharp.tests
            settingsPage.DeleteData();
            mainMenuPage.PressStore();
            // verify if buttons are disabled when no money
-           Assert.IsFalse(storePage.BuyButtonsAreEnabled());
+           Assert.IsFalse(storePage.BuyButtonsState());
            storePage.PressStoreToAddCoins(); 
            Thread.Sleep(1000);
            storePage.PressCharactersTab();
            storePage.ReloadItems();
            Thread.Sleep(1000); 
            //get coins by pressing Store and verify buttons get enabled 
-           Assert.IsTrue(storePage.BuyButtonsAreEnabled());
+           Assert.IsTrue(storePage.BuyButtonsState());
            storePage.BuyLife();
            storePage.CloseStore();
             mainMenuPage.MovePowerUpLeft();
@@ -179,7 +181,7 @@ namespace alttrashcat_tests_csharp.tests
             }
 
             Assert.True(gameOverScreen.IsDisplayed());
-
+ mainMenuPage.LoadScene();
             
            
         }
@@ -188,13 +190,14 @@ namespace alttrashcat_tests_csharp.tests
 
         public void TestTheNumberOfAllEnabledElementsFromDifferentPagesIsDifferent()
         {
-            mainMenuPage.LoadScene();
+           
             var mainMenuPageEnabledElements= altDriver.GetAllElements(enabled: true);
             mainMenuPage.PressRun();
             Thread.Sleep(1000);
             var gamePlayPageEnabledElements = altDriver.GetAllElements(enabled: true);
 
             Assert.AreNotEqual(mainMenuPageEnabledElements.Count, gamePlayPageEnabledElements.Count);
+             mainMenuPage.LoadScene();
 
         }
 
@@ -209,6 +212,7 @@ namespace alttrashcat_tests_csharp.tests
             var gamePlayPageDisabledElements = altDriver.GetAllElements(enabled: false);
 
             Assert.AreNotEqual(mainMenuPageDisabledElements.Count, gamePlayPageDisabledElements.Count);
+             mainMenuPage.LoadScene();
 
         }
 
@@ -222,6 +226,8 @@ namespace alttrashcat_tests_csharp.tests
             var FishbonesName = altDriver.FindObjects(By.NAME,"Pickup(Clone)");
             var FishbonesPath = altDriver.FindObjects(By.PATH, "//Pickup(Clone)");
             Assert.AreEqual(FishbonesName.Count, FishbonesPath.Count);
+             mainMenuPage.LoadScene();
+            
 
 
         }
@@ -252,6 +258,7 @@ namespace alttrashcat_tests_csharp.tests
             Assert.AreEqual("Shop", altDriver.GetCurrentScene());
 
            Assert.AreEqual(altDriver.GetAllLoadedScenes()[0], "Shop");
+            mainMenuPage.LoadScene();
 
         }
 
