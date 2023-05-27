@@ -155,13 +155,10 @@ namespace alttrashcat_tests_csharp.tests
             storePage.PressAccessoriesTab();
             storePage.BuyAccessoryItems();
             storePage.CloseStore();
-            // mainMenuPage.ChangeCharacter();
             mainMenuPage.ChangeAccessory();
             mainMenuPage.PressRun();
             Thread.Sleep(10);
             Assert.NotNull(gamePlay.RacconConstructionGear);
-
-
         }
 
         [Test]
@@ -192,10 +189,7 @@ namespace alttrashcat_tests_csharp.tests
             Thread.Sleep(100);
             mainMenuPage.PressRun();
             Assert.NotNull(gamePlay.NightLights);
-
         }
-
-
 
         [TestCase("MasterSlider")]
         [TestCase("MusicSlider")]
@@ -215,23 +209,18 @@ namespace alttrashcat_tests_csharp.tests
             settingsPage.MoveSlider(sliderName, 20);
 
             float finalSliderValue = settingsPage.GetSliderValue(sliderName);
-
-
-            Console.WriteLine("intial value is " + initialSliderValue);
-            Assert.AreNotSame(initialSliderValue, finalSliderValue);
+            Assert.AreNotEqual(initialSliderValue, finalSliderValue);
         }
         [Test]
         public void TestGetParent()
         {
             mainMenuPage.LoadScene();
-            Thread.Sleep(100);
-            var altObject = altDriver.FindObject(By.NAME, "ThemeZone", By.NAME, "UICamera");
-            var altObjectParent = altObject.GetParent();
+            Thread.Sleep(100);           
+            var altObjectParent = mainMenuPage.ThemeZoneCamera.GetParent();
             Assert.AreEqual("Loadout", altObjectParent.name);
         }
 
         [Test]
-
         public void TestGetAppScreenSize()
         {
             int resolutionX = 375;
@@ -243,24 +232,23 @@ namespace alttrashcat_tests_csharp.tests
             Console.WriteLine("screensize resolution X " + screensize.x + " screensize resolution Y " + screensize.y);
             Assert.AreEqual(screensize.x, resolutionX);
             Assert.AreEqual(screensize.y, resolutionY);
-
         }
 
-        // [Test] This fails due to SetStaticPropertyIssue 
+        [Test] 
+        [Ignore("This fails due to SetStaticPropertyIssue ")]
+        public void TestSetStaticCameraCount()
+        {
+            var numberOfCameras = altDriver.GetStaticProperty<int>("UnityEngine.Camera", "allCamerasCount", "UnityEngine.CoreModule" );
+            Console.WriteLine("Number of cameras is "+ numberOfCameras);
 
-        // public void TestSetStaticCameraCount()
-        // {
-        //     var numberOfCameras = altDriver.GetStaticProperty<int>("UnityEngine.Camera", "allCamerasCount", "UnityEngine.CoreModule" );
-        //     Console.WriteLine("Number of cameras is "+ numberOfCameras);
+            var firstCamera = altDriver.GetStaticProperty<object>("UnityEngine.Camera", "allCameras", "UnityEngine.CoreModule");
+            altDriver.SetStaticProperty("UnityEngine.Camera", "allCameras", "UnityEngine.CoreModule", firstCamera);
 
-        //     var firstCamera = altDriver.GetStaticProperty<object>("UnityEngine.Camera", "allCameras", "UnityEngine.CoreModule");
-        //     altDriver.SetStaticProperty("UnityEngine.Camera", "allCameras", "UnityEngine.CoreModule", firstCamera);
+            altDriver.SetStaticProperty("UnityEngine.Camera", "allCamerasCount", "UnityEngine.CoreModule", 5);
+           var updatedNumberOfCameras = altDriver.GetStaticProperty<int>("UnityEngine.Camera", "allCamerasCount", "UnityEngine.CoreModule" );
+             Console.WriteLine("Updated number of cameras is "+ updatedNumberOfCameras);
 
-        //     altDriver.SetStaticProperty("UnityEngine.Camera", "allCamerasCount", "UnityEngine.CoreModule", 5);
-        //    var updatedNumberOfCameras = altDriver.GetStaticProperty<int>("UnityEngine.Camera", "allCamerasCount", "UnityEngine.CoreModule" );
-        //      Console.WriteLine("Updated number of cameras is "+ updatedNumberOfCameras);
-
-        // }
+        }
 
         [Test]
         public void TestGetTimeScaleinGame()
@@ -277,6 +265,7 @@ namespace alttrashcat_tests_csharp.tests
                 altDriver.SetTimeScale(1);
             });
         }
+        
         [TearDown]
         public void Dispose()
         {

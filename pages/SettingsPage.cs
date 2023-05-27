@@ -15,9 +15,6 @@ namespace alttrashcat_tests_csharp.pages
         public AltObject ConfirmationPopUp { get => Driver.WaitForObject(By.PATH, "/UICamera/Loadout/SettingPopup/ConfirmPopup/Image", timeout: 10); }
         public AltObject ConfirmYesButton { get => Driver.WaitForObject(By.PATH, "/UICamera/Loadout/SettingPopup/ConfirmPopup/Image/YESButton", timeout: 10); }
         public AltObject ClosePopUpButton { get => Driver.WaitForObject(By.PATH, "/UICamera/Loadout/SettingPopup/Background/CloseButton"); }
-        // public AltObject MasterSlider { get => Driver.WaitForObject(By.NAME, "MasterSlider"); }
-        // public AltObject MusicSlider { get => Driver.WaitForObject(By.NAME, "MusicSlider"); }
-        // public AltObject MasterSFXSlider { get => Driver.WaitForObject(By.NAME, "MasterSFXSlider"); }
         public void PressSettings()
         {
             SettingsButton.Tap();
@@ -62,7 +59,6 @@ namespace alttrashcat_tests_csharp.pages
         }
         public void MoveSlider(string sliderName, int moveByNumber)
         {
-            // var  slider = Driver.WaitForObject(By.NAME, sliderName); 
             var sliderHandle = Driver.WaitForObject(By.PATH, "/UICamera/Loadout/SettingPopup/Background/" + sliderName + "/Handle Slide Area/Handle");
             Driver.Swipe(new AltVector2(sliderHandle.x, sliderHandle.y), new AltVector2(sliderHandle.x + moveByNumber, sliderHandle.y));
         }

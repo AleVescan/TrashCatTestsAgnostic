@@ -4,8 +4,6 @@ namespace alttrashcat_tests_csharp.tests
     [TestFixture]
     [AllureNUnit]
     [AllureSuite("Gameplay")]
-
-
     public class GamePlayTests
     {
         AltDriver altDriver;
@@ -16,12 +14,9 @@ namespace alttrashcat_tests_csharp.tests
         GameOverScreen gameOverScreen;
         SettingsPage settingsPage;
         StorePage storePage;
-
-
         [SetUp]
         public void Setup()
         {
-
             altDriver = new AltDriver();
             mainMenuPage = new MainMenuPage(altDriver);
             mainMenuPage.LoadScene();
@@ -32,10 +27,8 @@ namespace alttrashcat_tests_csharp.tests
             gameOverScreen = new GameOverScreen(altDriver);
             settingsPage = new SettingsPage(altDriver);
             storePage = new StorePage(altDriver);
-
         }
         [Test]
-
         [AllureSeverity(SeverityLevel.critical)]
         [AllureIssue("ABC-1")]
         [AllureOwner("AleV")]
@@ -57,7 +50,9 @@ namespace alttrashcat_tests_csharp.tests
             Assert.True(pauseOverlayPage.IsDisplayed());
             pauseOverlayPage.PressResume();
             Assert.True(gamePlayPage.IsDisplayed());
+            mainMenuPage.LoadScene();
         }
+
         [Test]
         [AllureSeverity(SeverityLevel.critical)]
         [AllureOwner("AleV")]
@@ -77,7 +72,9 @@ namespace alttrashcat_tests_csharp.tests
         {
             gamePlayPage.AvoidObstacles(5);
             Assert.True(gamePlayPage.GetCurrentLife() > 0);
+            mainMenuPage.LoadScene();
         }
+
         [Test]
         [AllureSeverity(SeverityLevel.critical)]
         [AllureOwner("AleV")]
@@ -98,6 +95,7 @@ namespace alttrashcat_tests_csharp.tests
                 }
             }
             Assert.True(getAnotherChancePage.IsDisplayed());
+            mainMenuPage.LoadScene();
         }
 
         [Test]
@@ -121,6 +119,7 @@ namespace alttrashcat_tests_csharp.tests
             }
             getAnotherChancePage.PressGameOver();
             Assert.True(gameOverScreen.IsDisplayed());
+            mainMenuPage.LoadScene();
         }
 
         [Test]
@@ -151,6 +150,7 @@ namespace alttrashcat_tests_csharp.tests
                 }
             }
             Assert.IsFalse(getAnotherChancePage.GetAnotherChangeObjectState);
+            mainMenuPage.LoadScene();
         }
 
         [Test]
@@ -165,11 +165,11 @@ namespace alttrashcat_tests_csharp.tests
             gamePlayPage.SetCharacterInvincible("False");
             Thread.Sleep(10000);
             Assert.True(getAnotherChancePage.IsDisplayed());
+            mainMenuPage.LoadScene();
 
         }
 
         [Test]
-
         public void TestPremiumButtonColorChangesAsExpectedPerState()
         {
             mainMenuPage.LoadScene();
@@ -192,8 +192,6 @@ namespace alttrashcat_tests_csharp.tests
                 }
             }
             Thread.Sleep(1000);
-
-
             var initialState = getAnotherChancePage.GetPremiumButtonState();
 
             var initialButtonColorR = getAnotherChancePage.GetPremiumButtonCurrentColorRGB("r");
@@ -208,11 +206,9 @@ namespace alttrashcat_tests_csharp.tests
             Assert.AreEqual(initialButtonColorG, normalColorG);
             Assert.AreEqual(initialButtonColorB, normalColorB);
 
-
             // Console.WriteLine("Intial button state code: " + initialState);
             // Console.WriteLine("Intial button color RGB : " + initialButtonColorR + "  " + initialButtonColorG + "  " + initialButtonColorB);
             // Console.WriteLine("Normal color RGB : " + normalColorR + "  " + normalColorG + "  " + normalColorB);
-
 
             getAnotherChancePage.PremiumButton.PointerDownFromObject();
             Thread.Sleep(1000);
@@ -251,6 +247,7 @@ namespace alttrashcat_tests_csharp.tests
             // Console.WriteLine("Button color after pointer up RGB " + afterPointerUpButtonColorR + "  " + afterPointerUpButtonColorG + "  " + afterPointerUpButtonColorB);
             // Console.WriteLine("Selected color RGB : " + selectedColorR + "  " + selectedColorG + "  " + selectedColorB);
             // Console.WriteLine("Button state after pointer up " + afterPointerUp);
+            mainMenuPage.LoadScene();
         }
 
         [Test]
@@ -263,6 +260,7 @@ namespace alttrashcat_tests_csharp.tests
             AltVector3 worlPositionUpdateObject = Character.UpdateObject().GetWorldPosition();
 
             Assert.AreNotEqual(worldPositionCharacter.z, worlPositionUpdateObject.z);
+            mainMenuPage.LoadScene();
         }
 
         [Test]
@@ -271,20 +269,14 @@ namespace alttrashcat_tests_csharp.tests
 
             var Character = altDriver.FindObject(By.NAME, "CharacterSlot");
             AltVector2 screenPositionCharacter = Character.GetScreenPosition();
-
-            Console.WriteLine("Screen position of character X axis " + screenPositionCharacter.x);
-            Console.WriteLine("Screen position of character Y axis " + screenPositionCharacter.y);
-
             Thread.Sleep(5000);
             //altDriver.PressKey(AltKeyCode.LeftArrow);
             gamePlayPage.MoveLeft(gamePlayPage.Character);
             Thread.Sleep(1000);
 
             AltVector2 screenPositionCharacteraAfterSomeTime = Character.UpdateObject().GetScreenPosition();
-
-            Console.WriteLine("Screen position of character after some time X axis " + screenPositionCharacteraAfterSomeTime.x);
-            Console.WriteLine("Screen position of character after some time Y axis " + screenPositionCharacteraAfterSomeTime.y);
             Assert.AreNotEqual(screenPositionCharacter.x, screenPositionCharacteraAfterSomeTime.x);
+            mainMenuPage.LoadScene();
         }
 
         [Test]
@@ -320,8 +312,6 @@ namespace alttrashcat_tests_csharp.tests
             Assert.AreEqual(characterPropertiesList[3].name, "localEulerAngles");
             //Console.WriteLine("Property  " + characterPropertiesList[4].name );
             Assert.AreEqual(characterPropertiesList[4].name, "right");
-
-
         }
 
         [Test]
@@ -361,7 +351,6 @@ namespace alttrashcat_tests_csharp.tests
             var characterName = gamePlayPage.CharacterFoundByWhichContainsWithCamera.name;
             //Console.WriteLine("Character item name" + characterName);
             Assert.AreEqual(characterName, "CharacterSlot");
-
         }
 
         [TearDown]
