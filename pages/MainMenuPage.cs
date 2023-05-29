@@ -70,6 +70,10 @@ namespace alttrashcat_tests_csharp.pages
        {
         LeaderboardHighScoreName.SetText("HighScore");
        }
+        public void SetResolution(string x, string y, string fullscreen)
+        {
+        Driver.CallStaticMethod<string>("UnityEngine.Screen", "SetResolution", "UnityEngine.CoreModule", new string[] { x, y, fullscreen }, new string[] { "System.Int32", "System.Int32", "System.Boolean" });
+        }
 
       
     

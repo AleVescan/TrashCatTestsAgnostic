@@ -127,7 +127,8 @@ namespace alttrashcat_tests_csharp.tests
         [AllureDescription("An user journey in which the player has the most chances of revival by using a life power-up and a second chance")]
         public void UserJourneyReviveAndGetASecondChance()
         {
-
+            Assert.Multiple(() =>
+            {
             settingsPage.DeleteData();
             mainMenuPage.PressStore();
             // verify if buttons are disabled when no money
@@ -179,8 +180,7 @@ namespace alttrashcat_tests_csharp.tests
 
             Assert.True(gameOverScreen.IsDisplayed());
             mainMenuPage.LoadScene();
-
-
+            });
         }
 
         [Test]
@@ -213,27 +213,13 @@ namespace alttrashcat_tests_csharp.tests
 
         }
 
-        [Test]
-
-        public void TestNumberOfFishbonesIsSame()
-        {
-            mainMenuPage.PressRun();
-            Thread.Sleep(1000);
-            var FishbonesName = altDriver.FindObjects(By.NAME, "Pickup(Clone)");
-            var FishbonesPath = altDriver.FindObjects(By.PATH, "//Pickup(Clone)");
-            Assert.AreEqual(FishbonesName.Count, FishbonesPath.Count);
-            mainMenuPage.LoadScene();
-
-
-
-        }
-
+        
         [Test]
         public void TestMethodsThatHandleScenes()
         {
             System.Collections.Generic.List<string> loadedSceneNames = altDriver.GetAllLoadedScenes();
-            Console.WriteLine("Numer of loaded scenes " + loadedSceneNames.Count);
-            Console.WriteLine("Name of loaded scenes " + loadedSceneNames[0]);
+            // Console.WriteLine("Numer of loaded scenes " + loadedSceneNames.Count);
+            // Console.WriteLine("Name of loaded scenes " + loadedSceneNames[0]);
             Assert.AreEqual(loadedSceneNames[0], "Main");
             Assert.AreEqual("Main", altDriver.GetCurrentScene());
 
@@ -249,15 +235,13 @@ namespace alttrashcat_tests_csharp.tests
            // Console.WriteLine("Name of loaded scenes after unloading Main " + altDriver.GetAllLoadedScenes()[0]);
             Assert.AreEqual("Shop", altDriver.GetCurrentScene());
 
-            altDriver.LoadScene("Shop");
+            altDriver.LoadScene("Shop", true);
             //Console.WriteLine("Name of loaded scenes after loading shop " + altDriver.GetAllLoadedScenes()[0]);
             Assert.AreEqual("Shop", altDriver.GetCurrentScene());
 
             Assert.AreEqual(altDriver.GetAllLoadedScenes()[0], "Shop");
             mainMenuPage.LoadScene();
-
         }
-
 
         [TearDown]
         public void Dispose()

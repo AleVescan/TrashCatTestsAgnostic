@@ -359,5 +359,19 @@ namespace alttrashcat_tests_csharp.tests
             altDriver.Stop();
             Thread.Sleep(1000);
         }
+
+        [Test]
+
+        public void TestNumberOfFishbonesIsSame()
+        {
+            mainMenuPage.LoadScene();
+            mainMenuPage.PressRun();
+            Thread.Sleep(1000);
+            var FishbonesName = altDriver.FindObjects(By.NAME, "Pickup(Clone)");
+            var FishbonesPath = altDriver.FindObjects(By.PATH, "//Pickup(Clone)");
+            Assert.AreEqual(FishbonesName.Count, FishbonesPath.Count);
+            mainMenuPage.LoadScene();
+        }
+
     }
 }

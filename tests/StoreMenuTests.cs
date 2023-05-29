@@ -92,47 +92,40 @@ namespace alttrashcat_tests_csharp.tests
         {
             mainMenuPage.LoadScene();
             mainMenuPage.PressStore();
-            //storePage.CharactersTabPointerEnterExitStateColors();
             object normalCharactersTabColor = storePage.GetColorOfObject(storePage.CharactersTab);
             storePage.CharactersTab.PointerEnterObject();
             Thread.Sleep(1000);
             object hoverCharactersTabColor = storePage.GetColorOfObject(storePage.CharactersTab);
             storePage.CharactersTab.PointerExitObject();
             Thread.Sleep(1000);
-
             object afterCharactersTabColor = storePage.GetColorOfObject(storePage.CharactersTab);
 
             Assert.AreNotEqual(normalCharactersTabColor, hoverCharactersTabColor);
             Assert.AreNotEqual(hoverCharactersTabColor, afterCharactersTabColor);
             Assert.AreNotEqual(normalCharactersTabColor, afterCharactersTabColor);
-
-
-
         }
 
         [Test]
 
         public void TestKeyPreferancesInStoreMenu()
         {
+            Assert.Multiple(()=>
+            {              
             altDriver.DeletePlayerPref();
             altDriver.SetKeyPlayerPref("test", "TestString");
             var stringVar = altDriver.GetStringKeyPlayerPref("test");
-            Console.WriteLine("Playre pref for string "+ stringVar);
             Assert.AreEqual(stringVar, "TestString");
 
             altDriver.SetKeyPlayerPref("test", 1);
             var intVar = altDriver.GetIntKeyPlayerPref("test");
-            Console.WriteLine("Player pref for int "+ intVar);
             Assert.AreEqual(intVar, 1);
 
             altDriver.SetKeyPlayerPref("test", 1.0f);
             var floatVar = altDriver.GetFloatKeyPlayerPref("test");
-            Console.WriteLine("Player pref for float "+ floatVar);
             Assert.AreEqual(floatVar, 1.0f);
 
             altDriver.DeleteKeyPlayerPref("test");
-          
-
+            });
         }
         [Test]
         public void TestPlayerPrefsWithStaticMethod()

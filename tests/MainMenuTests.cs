@@ -223,15 +223,25 @@ namespace alttrashcat_tests_csharp.tests
         [Test]
         public void TestGetAppScreenSize()
         {
-            int resolutionX = 375;
-            int resolutionY = 667;
+            //Comand to set the wanted resolution from time to time - it should be commented most of the time. 
+           // mainMenuPage.SetResolution("600", "900", "false");
+            string  initialScreenSizeX= altDriver.GetApplicationScreenSize().x.ToString();
+            string initialScreenSizeY= altDriver.GetApplicationScreenSize().y.ToString();
+
+            string resolutionX = "375";
+            string resolutionY = "667";
 
             mainMenuPage.LoadScene();
-            altDriver.CallStaticMethod<string>("UnityEngine.Screen", "SetResolution", "UnityEngine.CoreModule", new string[] { "375", "667", "true" }, new string[] { "System.Int32", "System.Int32", "System.Boolean" });
+            mainMenuPage.SetResolution(resolutionX, resolutionY, "false");
+            Thread.Sleep(1000);
             var screensize = altDriver.GetApplicationScreenSize();
-            Console.WriteLine("screensize resolution X " + screensize.x + " screensize resolution Y " + screensize.y);
-            Assert.AreEqual(screensize.x, resolutionX);
-            Assert.AreEqual(screensize.y, resolutionY);
+            Assert.Multiple(() =>
+            {
+            Assert.AreEqual(screensize.x.ToString(), resolutionX);
+            Assert.AreEqual(screensize.y.ToString(), resolutionY);
+            //resolution teardown
+            mainMenuPage.SetResolution(initialScreenSizeX, initialScreenSizeY, "false");
+            });
         }
 
         [Test] 
